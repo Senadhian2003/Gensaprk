@@ -1,3 +1,5 @@
 HELLO BATMAN and superman
 
 Line for testing the staging of files
+
+Line for checking staging error
