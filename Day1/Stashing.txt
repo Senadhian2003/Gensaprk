@@ -1,3 +1,2 @@
 Stashing Demo
 
-Lets begin to stash
