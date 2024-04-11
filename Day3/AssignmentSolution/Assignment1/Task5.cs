@@ -51,26 +51,37 @@ namespace Assignment1
             Console.WriteLine(msg);
         }
 
+        static void getNameInput(out string name)
+        {
+            while (!getName(Console.ReadLine(), out name))
+            {
+                Console.WriteLine("Invalid User Name. Type Correct User name");
+            }
+        }
+
+        static void getPasswordInput(out string pass)
+        {
+            while (!getPassword(Console.ReadLine(), out pass))
+            {
+                Console.WriteLine("Password is Empty. Type a password");
+            }
+        }
+
         static void authenticateUser()
         {
             string name;
             string password;
             int cnt = 0;
             string message;
-            Console.WriteLine("Enter User name");
+            
             while (cnt < 3)
             {
-                while(!getName(Console.ReadLine(), out name))
-                {
-                    Console.WriteLine("Invalid User Name. Type Correct User name");
-                }
+                Console.WriteLine("Enter User name");
+                getNameInput(out name); 
                 Console.WriteLine("Enter Password");
                 //password = Console.ReadLine().Trim();
-
-                while(!getPassword(Console.ReadLine(), out password))
-                {
-                    Console.WriteLine("Password is Empty. Type a password");
-                }
+                getPasswordInput(out password);
+                
 
                 if (!validate(name, password,out message)) {
                     PrintInfo(message);
