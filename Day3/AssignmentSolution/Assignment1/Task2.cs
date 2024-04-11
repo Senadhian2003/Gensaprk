@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    internal class Class1
+    internal class Task2
     {
         static int compare(int num1, int num2)
         {
@@ -26,7 +26,7 @@ namespace Assignment1
                 Console.WriteLine("Invalid number enter again");
             }
 
-            return checkNegative()
+            return checkNegative(num);
 
         }
 
@@ -39,16 +39,29 @@ namespace Assignment1
             return false;
         }
 
-        static void Main(string[] args)
+        static void findMax()
         {
             int maxnum = 0;
             int num;
-            while( TakeNum(out num) ) { 
-            
+            while (TakeNum(out num))
+            {
+
                 maxnum = compare(maxnum, num);
             }
+            printInfo(maxnum);
 
-            Console.WriteLine($"MaxNumber is {maxnum}");
+        }
+
+        static void printInfo(int num)
+        {
+            Console.WriteLine($"MaxNumber is {num}");
+        }
+
+        static void Main(string[] args)
+        {
+            findMax();
+
+            
             
         }
 

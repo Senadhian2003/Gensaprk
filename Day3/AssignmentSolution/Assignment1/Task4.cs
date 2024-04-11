@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    internal class Class2
+    internal class Task4
     {
+
+        static void Main(string[] args)
+        {
+
+        }
+
+
     }
 }

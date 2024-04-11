@@ -1,6 +1,6 @@
 ﻿namespace Assignment1
 {
-    internal class Program
+    internal class Task1
     {   
 
         static int TakeNum(string data)
