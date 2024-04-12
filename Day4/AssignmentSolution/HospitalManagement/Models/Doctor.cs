@@ -20,6 +20,15 @@ namespace HospitalManagement.Models
             Id = id;
         }
 
+        /// <summary>
+        /// Docot Constructor
+        /// </summary>
+        /// <param name="id">Id of Doctor</param>
+        /// <param name="name">Name of Doctor</param>
+        /// <param name="age">Age of Doctor</param>
+        /// <param name="experience">Experience of Doctor</param>
+        /// <param name="qualification">Qualification of Doctor</param>
+        /// <param name="speciality">Specialization of Doctor</param>
         public Doctor(int id, string name, int age, int experience, string qualification, string speciality) : this(id)
         {
             Name = name;
@@ -29,6 +38,9 @@ namespace HospitalManagement.Models
             Speciality = speciality;
         }
 
+        /// <summary>
+        /// Print Details of Doctor
+        /// </summary>
         public void PrintInfo()
         {
 

@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\bin\Debug\net8.0\CardProgram.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\bin\Debug\net8.0\CardProgram.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\bin\Debug\net8.0\CardProgram.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\bin\Debug\net8.0\CardProgram.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\bin\Debug\net8.0\CardProgram.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\refint\CardProgram.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\CardProgram.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\CardAssignmentSolution\CardProgram\obj\Debug\net8.0\ref\CardProgram.dll

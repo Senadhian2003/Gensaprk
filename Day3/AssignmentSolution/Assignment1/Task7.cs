@@ -33,11 +33,11 @@ namespace Assignment1
                     {
                         vowCount++;
                     }
-                    Console.WriteLine(vowCount);
+                    //Console.WriteLine(vowCount);
 
                 }
 
-                if(vowCount < minVowCount) { 
+                if(vowCount <= minVowCount) { 
                     minVowCount = vowCount;
                     
                     hist.Add(word, vowCount);
@@ -52,7 +52,8 @@ namespace Assignment1
                 if (pair.Value == minVowCount)
                 {
                     Console.WriteLine($"The word is {pair.Key} and count is {pair.Value}");
-                    }
+                }
+               
 
             }
 

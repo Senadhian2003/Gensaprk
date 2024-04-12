@@ -5,14 +5,21 @@ namespace HospitalManagement
 {
     class Program
     {
-        static bool getString(string input, out string name)
+     
+        /// <summary>
+        /// Validate and get string as input
+        /// </summary>
+        /// <param name="input">The input given to Function</param>
+        /// <param name="output">The output of the string after validation </param>
+        /// <returns></returns>
+        static bool getString(string input, out string output)
         {
-            name = "";
+            output = "";
 
             string pattern = @"^[a-zA-Z\s]+$";
             if(Regex.IsMatch(input, pattern) && input.Length>0 )
             {
-                name = input.Trim();
+                output = input.Trim();
                 return true;
             }
             return false;
@@ -20,7 +27,11 @@ namespace HospitalManagement
         }
 
        
-
+        /// <summary>
+        /// Obtain Details of the Doctor
+        /// </summary>
+        /// <param name="id">Id of the Doctor</param>
+        /// <returns></returns>
         Doctor getDocotorDetails(int id)
         {
             Doctor doctor = new Doctor(100 + id);
@@ -74,27 +85,38 @@ namespace HospitalManagement
         static void printAllDoctors(Doctor[] doctors)
         {
             int len = doctors.Length;
-
-            for(int i = 0; i < len; i++)
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("Doctor Details");
+            for (int i = 0; i < len; i++)
             {
                 doctors[i].PrintInfo();
+                Console.WriteLine("************************************");
             }
-
+            Console.WriteLine("--------------------------------------------------------");
         }
 
-        static void printDoctorsWithSpeciality(Doctor[] doctors,string spreciality)
+        static void printDoctorsWithSpeciality(Doctor[] doctors)
         {
+            Console.WriteLine("Enter Specialization");
+            string speciality;
+
+            while (!getString(Console.ReadLine(), out speciality))
+            {
+                Console.WriteLine("Invalid Specialization. Type again");
+            }
+
             int len = doctors.Length;
+            Console.WriteLine("--------------------------------------------------------");
             Console.WriteLine("The doctors with required specialization are...");
             for( int i = 0; i < len; i++)
             {
-                if (doctors[i].Speciality == spreciality)
+                if (doctors[i].Speciality == speciality)
                 {
                     doctors[i].PrintInfo();
                 }
-
+                Console.WriteLine("*****************************************************");
             }
-
+            Console.WriteLine("--------------------------------------------------------");
         }
 
 
@@ -108,9 +130,9 @@ namespace HospitalManagement
             {
                 doctors[i] = program.getDocotorDetails(i);
             }
-            //printAllDoctors(doctors);
+            printAllDoctors(doctors);
 
-            printDoctorsWithSpeciality(doctors, "Neuro Surgeon");
+            printDoctorsWithSpeciality(doctors);
 
 
         }

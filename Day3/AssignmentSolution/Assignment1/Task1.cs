@@ -3,30 +3,30 @@
     internal class Task1
     {   
 
-        static int TakeNum(string data)
+        static float TakeNum(string data)
         {
-            int num;
+            float num;
             Console.WriteLine($"Enter a {data}");
-            while(!int.TryParse(Console.ReadLine(),out num)){
+            while(!float.TryParse(Console.ReadLine(),out num)){
                 Console.WriteLine($"Invalid {data} enter again");
             }
             return num;
         }
 
-        static int add(int num1, int num2)
+        static float add(float num1, float num2)
         {
 
             return num1 + num2;
         }
 
-        static int multiply(int num1, int num2)
+        static float multiply(float num1, float num2)
         {
             return num1 * num2;
         }
 
-        static int divide(int num1, int num2)
+        static float divide(float num1, float num2)
         {
-            int result;
+            float result;
             try
             {
                 result = num1 / num2;
@@ -40,14 +40,14 @@
             return result;
         }
 
-        static int subtact(int num1, int num2)
+        static float subtact(float num1, float num2)
         {
             return (num1 - num2);
         }
 
-        static int modulo(int num1, int num2)
+        static float modulo(float num1, float num2)
         {
-            int result;
+            float result;
             try
             {
                 result = num1 % num2;
@@ -61,32 +61,33 @@
             return result;
         }
         
-        static void PrintInfo(int result, string operation)
+        static void PrintInfo(float result, string operation)
         {
             Console.WriteLine($"The {operation} operation of two numbers is {result}");
         }
 
         static void calculate()
         {
-            int option = TakeNum("option");
-            int num1 = TakeNum("number");
-            int num2 = TakeNum("number");
+            printOption();
+            float option = TakeNum("option");
+            float num1 = TakeNum("number");
+            float num2 = TakeNum("number");
             
             switch(option)
             {
-                case 0:
+                case 1:
                     PrintInfo(add(num1, num2), "Addition");
                     break;
-                case 1:
+                case 2:
                     PrintInfo(subtact(num1, num2), "Difference");
                     break;
-                case 2:
+                case 3:
                     PrintInfo(multiply(num1, num2), "Product");
                     break;
-                case 3:
+                case 4:
                     PrintInfo(divide(num1, num2), "Division");
                     break;
-                case 4:
+                case 5:
                     PrintInfo(modulo(num1, num2), "Modulo");
                     break;
                 default:
@@ -97,6 +98,15 @@
             }
             
 
+        }
+
+        static void printOption() {
+
+            Console.WriteLine("Select the operation to be performed");
+
+            Console.WriteLine("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Remainder");
+        
+        
         }
 
         static void Main(string[] args)
