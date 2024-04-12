@@ -74,7 +74,7 @@ namespace HospitalManagement
                 Console.WriteLine("Invalid Specialization. Type again");
             }
             doctor.Speciality = specialization;
-
+            Console.WriteLine("----------------------------------------");
             return doctor;
 
 
@@ -130,7 +130,7 @@ namespace HospitalManagement
             {
                 doctors[i] = program.getDocotorDetails(i);
             }
-            printAllDoctors(doctors);
+            //printAllDoctors(doctors);
 
             printDoctorsWithSpeciality(doctors);
 

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day4\\AssignmentSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45F616CF-4288-4145-8ECA-6475BC1229BF}|HospitalManagement\\HospitalManagement.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day4\\assignmentsolution\\hospitalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F616CF-4288-4145-8ECA-6475BC1229BF}|HospitalManagement\\HospitalManagement.csproj|solutionrelative:hospitalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45F616CF-4288-4145-8ECA-6475BC1229BF}|HospitalManagement\\HospitalManagement.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day4\\assignmentsolution\\hospitalmanagement\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45F616CF-4288-4145-8ECA-6475BC1229BF}|HospitalManagement\\HospitalManagement.csproj|solutionrelative:hospitalmanagement\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day4\\AssignmentSolution\\HospitalManagement\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagement\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day4\\AssignmentSolution\\HospitalManagement\\Program.cs",
+              "RelativeToolTip": "HospitalManagement\\Program.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAzwIQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T17:38:03.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day4\\AssignmentSolution\\HospitalManagement\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "HospitalManagement\\Models\\Doctor.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day4\\AssignmentSolution\\HospitalManagement\\Models\\Doctor.cs",
               "RelativeToolTip": "HospitalManagement\\Models\\Doctor.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAADoAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvzMAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T10:00:34.757Z",
               "EditorCaption": ""

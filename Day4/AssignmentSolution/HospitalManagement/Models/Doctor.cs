@@ -43,13 +43,13 @@ namespace HospitalManagement.Models
         /// </summary>
         public void PrintInfo()
         {
-
+            Console.WriteLine("----------------------------------------");
             Console.WriteLine($"Name\t:\t{Name}");
             Console.WriteLine($"Age\t:\t{Age}");
             Console.WriteLine($"Experience\t:\t{Experience}");
             Console.WriteLine($"Qualification\t:\t{Qualification}");
             Console.WriteLine($"Specialization\t:\t{Speciality}");
-
+            Console.WriteLine("----------------------------------------");
 
         }
 
