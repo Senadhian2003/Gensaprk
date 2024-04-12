@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\bin\Debug\net8.0\HospitalManagement.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\bin\Debug\net8.0\HospitalManagement.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\bin\Debug\net8.0\HospitalManagement.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\bin\Debug\net8.0\HospitalManagement.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\bin\Debug\net8.0\HospitalManagement.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\refint\HospitalManagement.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\HospitalManagement.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\AssignmentSolution\HospitalManagement\obj\Debug\net8.0\ref\HospitalManagement.dll
