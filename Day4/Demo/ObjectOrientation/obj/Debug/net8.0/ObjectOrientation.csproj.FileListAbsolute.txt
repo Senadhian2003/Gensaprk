@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\bin\Debug\net8.0\ObjectOrientation.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\bin\Debug\net8.0\ObjectOrientation.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\bin\Debug\net8.0\ObjectOrientation.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\bin\Debug\net8.0\ObjectOrientation.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\bin\Debug\net8.0\ObjectOrientation.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\refint\ObjectOrientation.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ObjectOrientation.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day4\Demo\ObjectOrientation\obj\Debug\net8.0\ref\ObjectOrientation.dll
