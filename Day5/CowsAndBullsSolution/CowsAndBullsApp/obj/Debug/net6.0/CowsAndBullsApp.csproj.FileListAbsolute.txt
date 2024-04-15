@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\bin\Debug\net6.0\CowsAndBullsApp.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\bin\Debug\net6.0\CowsAndBullsApp.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\bin\Debug\net6.0\CowsAndBullsApp.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\bin\Debug\net6.0\CowsAndBullsApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\bin\Debug\net6.0\CowsAndBullsApp.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\refint\CowsAndBullsApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\CowsAndBullsApp.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day5\CowsAndBullsSolution\CowsAndBullsApp\obj\Debug\net6.0\ref\CowsAndBullsApp.dll

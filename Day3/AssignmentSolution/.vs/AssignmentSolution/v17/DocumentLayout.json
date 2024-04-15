@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{301F1346-7193-4959-8B78-EE543A0BD0EE}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\task7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{301F1346-7193-4959-8B78-EE543A0BD0EE}|Assignment1\\Assignment1.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day3\\assignmentsolution\\assignment1\\assignment1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{301F1346-7193-4959-8B78-EE543A0BD0EE}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\assignment1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{301F1346-7193-4959-8B78-EE543A0BD0EE}|Assignment1\\Assignment1.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day3\\assignmentsolution\\assignment1\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{301F1346-7193-4959-8B78-EE543A0BD0EE}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,20 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Assignment1",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Assignment1.csproj",
-              "RelativeDocumentMoniker": "Assignment1\\Assignment1.csproj",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Assignment1.csproj",
-              "RelativeToolTip": "Assignment1\\Assignment1.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-11T17:45:31.826Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -60,14 +44,14 @@
               "RelativeDocumentMoniker": "Assignment1\\Task7.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Task7.cs",
               "RelativeToolTip": "Assignment1\\Task7.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAuwDcAAAAPAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwDcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T17:18:48.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Task5.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Task5.cs",
               "RelativeDocumentMoniker": "Assignment1\\Task5.cs",
@@ -75,12 +59,11 @@
               "RelativeToolTip": "Assignment1\\Task5.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwBAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:31:20.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T18:31:20.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Task4.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Task4.cs",
               "RelativeDocumentMoniker": "Assignment1\\Task4.cs",
@@ -88,12 +71,11 @@
               "RelativeToolTip": "Assignment1\\Task4.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:53:21.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T17:53:21.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Task3.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Task3.cs",
               "RelativeDocumentMoniker": "Assignment1\\Task3.cs",
@@ -101,12 +83,11 @@
               "RelativeToolTip": "Assignment1\\Task3.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:10:39.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:10:39.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Task2.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Task2.cs",
               "RelativeDocumentMoniker": "Assignment1\\Task2.cs",
@@ -114,12 +95,11 @@
               "RelativeToolTip": "Assignment1\\Task2.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwDIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T10:28:12.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T10:28:12.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Task1.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day3\\AssignmentSolution\\Assignment1\\Task1.cs",
               "RelativeDocumentMoniker": "Assignment1\\Task1.cs",
@@ -127,8 +107,7 @@
               "RelativeToolTip": "Assignment1\\Task1.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T10:23:25.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T10:23:25.191Z"
             }
           ]
         }
