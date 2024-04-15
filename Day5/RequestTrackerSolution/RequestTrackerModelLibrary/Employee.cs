@@ -51,11 +51,13 @@
 
         public void PrintEmployeeDetails()
         {
+           
             Console.WriteLine("Employee Id : " + Id);
             Console.WriteLine("Employee Name " + Name);
             Console.WriteLine("Date of birth : " + DateOfBirth);
             Console.WriteLine("Employee Age : " + Age);
             Console.WriteLine("Employee Salary : Rs." + Salary);
+           
         }
     }
 }
