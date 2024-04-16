@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day6\\companymanagementsolution\\companymodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|solutionrelative:companymodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day6\\companymanagementsolution\\companymodellibrary\\tcsemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|solutionrelative:companymodellibrary\\tcsemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day6\\companymanagementsolution\\companymodellibrary\\accentureemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|solutionrelative:companymodellibrary\\accentureemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day6\\companymanagementsolution\\companymodellibrary\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|solutionrelative:companymodellibrary\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DBA038B-ABA2-4B30-83CA-F595F3985979}|CompanyManagementApp\\CompanyManagementApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day6\\companymanagementsolution\\companymanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DBA038B-ABA2-4B30-83CA-F595F3985979}|CompanyManagementApp\\CompanyManagementApp.csproj|solutionrelative:companymanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day6\\companymanagementsolution\\companymodellibrary\\govrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3936FB9C-0C78-4675-B7A7-EFA8126DED7D}|CompanyModelLibrary\\CompanyModelLibrary.csproj|solutionrelative:companymodellibrary\\govrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TcsEmployee.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\TcsEmployee.cs",
+              "RelativeDocumentMoniker": "CompanyModelLibrary\\TcsEmployee.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\TcsEmployee.cs",
+              "RelativeToolTip": "CompanyModelLibrary\\TcsEmployee.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA3wCkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:19:54.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccentureEmployee.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\AccentureEmployee.cs",
+              "RelativeDocumentMoniker": "CompanyModelLibrary\\AccentureEmployee.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\AccentureEmployee.cs",
+              "RelativeToolTip": "CompanyModelLibrary\\AccentureEmployee.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAEIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:54:04.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "CompanyModelLibrary\\Employee.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\Employee.cs",
+              "RelativeToolTip": "CompanyModelLibrary\\Employee.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:42:37.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\Company.cs",
+              "RelativeDocumentMoniker": "CompanyModelLibrary\\Company.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\Company.cs",
+              "RelativeToolTip": "CompanyModelLibrary\\Company.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:37:36.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GovRules.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\GovRules.cs",
+              "RelativeDocumentMoniker": "CompanyModelLibrary\\GovRules.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyModelLibrary\\GovRules.cs",
+              "RelativeToolTip": "CompanyModelLibrary\\GovRules.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:39:14.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyManagementApp\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day6\\CompanyManagementSolution\\CompanyManagementApp\\Program.cs",
+              "RelativeToolTip": "CompanyManagementApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:35:54.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
