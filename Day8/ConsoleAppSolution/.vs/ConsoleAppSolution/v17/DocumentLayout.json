@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day8\\ConsoleAppSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{683FB86E-1BCE-47E4-8197-C2ECE8E27F82}|ConsoleApp\\ConsoleApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day8\\consoleappsolution\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683FB86E-1BCE-47E4-8197-C2ECE8E27F82}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683FB86E-1BCE-47E4-8197-C2ECE8E27F82}|ConsoleApp\\ConsoleApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day8\\consoleappsolution\\consoleapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683FB86E-1BCE-47E4-8197-C2ECE8E27F82}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day8\\ConsoleAppSolution\\ConsoleApp\\Student.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Student.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day8\\ConsoleAppSolution\\ConsoleApp\\Student.cs",
+              "RelativeToolTip": "ConsoleApp\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:21:55.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day8\\ConsoleAppSolution\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day8\\ConsoleAppSolution\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "ConsoleApp\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA1wCUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T06:05:39.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
