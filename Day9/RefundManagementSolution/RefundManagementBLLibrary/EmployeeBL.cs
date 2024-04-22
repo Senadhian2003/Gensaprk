@@ -1,4 +1,5 @@
-﻿using RefundManagementDALLibrary;
+﻿using RefundManagementBLLibrary.Exceptions;
+using RefundManagementDALLibrary;
 using RefundManagementModelLibrary;
 
 namespace RefundManagementBLLibrary
@@ -91,7 +92,7 @@ namespace RefundManagementBLLibrary
                 return employeeList;
             }
 
-            throw new EmptyEmployeeListException();
+            return null;
         }
 
 

@@ -1,4 +1,5 @@
-﻿using RefundManagementDALLibrary;
+﻿using RefundManagementBLLibrary.Exceptions;
+using RefundManagementDALLibrary;
 using RefundManagementModelLibrary;
 using System;
 using System.Collections.Generic;
@@ -44,9 +45,9 @@ namespace RefundManagementBLLibrary
 
            
 
-            if (employee != null)
+            if (refund != null)
             {
-                return employee;
+                return refund;
 
             }
 

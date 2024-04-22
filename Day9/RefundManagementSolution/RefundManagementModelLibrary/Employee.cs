@@ -7,6 +7,7 @@ namespace RefundManagementModelLibrary
         
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
+        public string Type { get; set; } = string.Empty;
         int age;
         DateTime dob;
         
@@ -35,7 +36,7 @@ namespace RefundManagementModelLibrary
             Name = string.Empty;
             Salary = 0.0;
             DateOfBirth = new DateTime();
-            
+            Type = "Employee";
         }
         public Employee(int id, string name, DateTime dateOfBirth)
         {
