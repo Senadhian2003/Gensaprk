@@ -14,5 +14,6 @@ namespace RefundManagementBLLibrary.Exceptions
         {
             message = "The employee could not be found";
         }
+        public override string Message => message;
     }
 }

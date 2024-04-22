@@ -10,6 +10,8 @@ namespace RefundManagementModelLibrary
         public string Type { get; set; } = string.Empty;
         int age;
         DateTime dob;
+
+
         
         public int Age
         {
@@ -52,7 +54,9 @@ namespace RefundManagementModelLibrary
             Name = Console.ReadLine() ?? String.Empty;
             Console.WriteLine("Please enter the Date of birth");
             DateOfBirth = Convert.ToDateTime(Console.ReadLine());
-           
+            Console.WriteLine("Please enter the Salary of employee");
+            Salary = Convert.ToDouble(Console.ReadLine());
+
         }
 
 
@@ -64,6 +68,7 @@ namespace RefundManagementModelLibrary
                 + "\nEmployee Name " + Name
                 + "\nDate of birth : " + DateOfBirth
                 + "\nEmployee Age : " + Age
+                + "\nEmployee Salary : " + Salary
                 + "\n"
                 + "--------------------------------";
 

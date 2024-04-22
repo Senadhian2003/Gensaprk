@@ -100,7 +100,7 @@ namespace RefundManagementApp
                 Console.WriteLine("Employee updated successfully");
 
             }
-            catch (DuplicateEmployeeNameException ex)
+            catch (EmployeeNotFoundException ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -183,7 +183,7 @@ namespace RefundManagementApp
                 Console.WriteLine();
 
             }
-            catch (DuplicateEmployeeNameException ex)
+            catch (RefundNotFoundException ex)
             {
                 Console.WriteLine(ex.Message);
             }

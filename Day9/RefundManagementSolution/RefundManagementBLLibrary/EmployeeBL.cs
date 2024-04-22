@@ -27,17 +27,20 @@ namespace RefundManagementBLLibrary
 
         public Employee ChangeEmployeeName(string employeeOldName, string employeeNewName)
         {
-
+            Employee employee;
             if (employeeOldName == employeeNewName)
             {
-                throw new DuplicateEmployeeNameException();
+                Console.WriteLine("The employee old name and new name are same. There is no need to change");
+                employee = GetEmployeeByName(employeeOldName);
+                return employee;
             }
+            else
+            {
+                employee = GetEmployeeByName(employeeOldName);
+                employee.Name = employeeNewName;
+                employee = _employeeRepository.Update(employee);
 
-            Employee employee = GetEmployeeByName(employeeOldName);
-            employee.Name = employeeNewName;
-            employee = _employeeRepository.Update(employee);
-
-           
+            }
 
             if (employee != null)
             {
