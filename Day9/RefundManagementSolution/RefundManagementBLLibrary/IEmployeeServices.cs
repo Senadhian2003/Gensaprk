@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RefundManagementBLLibrary
 {
-    public interface EmployeeServices
+    public interface IEmployeeServices
     {
         int AddEmployee(Employee employee);
         Employee ChangeEmployeeName(string employeeOldName, string employeeNewName);

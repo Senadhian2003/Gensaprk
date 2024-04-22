@@ -18,7 +18,7 @@ namespace RefundManagementDALLibrary
         {
             if (_refunds.Count == 0)
                 return 1;
-            int id = _refunds.Keys.Max();
+            int id = 100 + _refunds.Keys.Max();
             return ++id;
         }
         public Refund Add(Refund item)

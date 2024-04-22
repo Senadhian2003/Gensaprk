@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace RefundManagementBLLibrary
 {
-    public interface RefundServices
+    public interface IRefundServices
     {
 
-        List<Refund> GetRefundDetails(Employee employee);
+        Refund GetRefundById(int id);
         List<Refund> GetAllRefund();
-        Refund AddRefund(Refund refund);
+        int AddRefund(Refund refund);
 
         Refund UpdateRefund(Refund refund);
 

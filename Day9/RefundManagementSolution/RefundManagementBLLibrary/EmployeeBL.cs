@@ -3,7 +3,7 @@ using RefundManagementModelLibrary;
 
 namespace RefundManagementBLLibrary
 {
-    public class EmployeeBL : EmployeeServices
+    public class EmployeeBL : IEmployeeServices
     {
         readonly IRepository<int, Employee> _employeeRepository;
 
@@ -36,7 +36,7 @@ namespace RefundManagementBLLibrary
 
             employee = _employeeRepository.Update(employee);
 
-            employee = _employeeRepository.Update(employee);
+           
 
             if (employee != null)
             {
@@ -51,7 +51,7 @@ namespace RefundManagementBLLibrary
         {
             Employee employee;
 
-            employee = GetEmployeeById(id);
+            employee = _employeeRepository.Get(id);
 
             if (employee != null)
             {

@@ -65,6 +65,16 @@ namespace RefundManagementModelLibrary
 
         }
 
+        public override bool Equals(object? obj)
+        {
+            Refund r1, r2;
+            r1 = this;
+            r2 = obj as Refund;
+            return r1.Id.Equals(r2.Id);
+        }
+
+
+
 
     }
 }
