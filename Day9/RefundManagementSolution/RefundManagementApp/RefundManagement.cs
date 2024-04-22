@@ -18,28 +18,40 @@ namespace RefundManagementApp
 
         }
 
-
+        /// <summary>
+        /// Prints The menu for HR
+        /// </summary>
         void PrintMenuForHR()
         {
+            Console.WriteLine();
             Console.WriteLine("HR Functionalities");
             Console.WriteLine("1. Add Employee");
             Console.WriteLine("2. Print Employees");
             Console.WriteLine("3. Search Employee by ID");
             Console.WriteLine("4. Update Employee name");
             Console.WriteLine("5. View All Refund");
-            Console.WriteLine("5. Update refund status");
+            Console.WriteLine("6. View Unverified Refund");
+            Console.WriteLine("7. Update refund status");
             Console.WriteLine("0. Exit");
+            Console.WriteLine();
         }
 
+        /// <summary>
+        /// Prints the Menu for Employee
+        /// </summary>
         void PrintMenuForEmployee()
         {
+            Console.WriteLine();
             Console.WriteLine("Employee Functionalities");
             Console.WriteLine("1. Apply For Refund");
             Console.WriteLine("2. View Refund status");
             Console.WriteLine("0. Exit");
+            Console.WriteLine();
         }
 
-
+        /// <summary>
+        /// Adds a new Employee to the repository
+        /// </summary>
         void AddEmployee()
         {
             try
@@ -47,7 +59,7 @@ namespace RefundManagementApp
                 Console.WriteLine("Enter the type of employee");
                 string employeeType = Console.ReadLine();
                 Employee employee;
-                if(employeeType == "Employee")
+                if(employeeType != "HR")
                 {
                     employee = new Employee();
                 }
@@ -71,6 +83,9 @@ namespace RefundManagementApp
 
         }
 
+        /// <summary>
+        /// Updates the Name of the employee
+        /// </summary>
         void UpdateEmployee()
         {
             try
@@ -81,6 +96,9 @@ namespace RefundManagementApp
                 string newEmployeeName = Console.ReadLine();
 
                 employeeBL.ChangeEmployeeName(oldEmployeeName, newEmployeeName);
+
+                Console.WriteLine("Employee updated successfully");
+
             }
             catch (DuplicateEmployeeNameException ex)
             {
@@ -90,14 +108,19 @@ namespace RefundManagementApp
 
         }
 
+        /// <summary>
+        /// Prints the employee details of an employee using the given name
+        /// </summary>
         void getEmployeeByName()
         {
             try
             {
+                Console.WriteLine();
                 Console.WriteLine("Enter Employee Name");
                 string employeeName = Console.ReadLine();
                 Employee employee = employeeBL.GetEmployeeByName(employeeName);
                 Console.WriteLine(employee.ToString());
+                Console.WriteLine();
             }
             catch (EmployeeNotFoundException ex)
             {
@@ -106,23 +129,11 @@ namespace RefundManagementApp
 
         }
 
-        void getEmployeeById()
-        {
-            try
-            {
-                Console.WriteLine("Enter Employee Id ");
-                int employeeId = Convert.ToInt32(Console.ReadLine());
-                Employee employee = employeeBL.GetEmployeeById(employeeId);
-                Console.WriteLine(employee.ToString());
-            }
-            catch (EmployeeNotFoundException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+       
 
-        }
-
-
+        /// <summary>
+        /// Prints all the employee details for the HR
+        /// </summary>
 
         void PrintAllEmployees()
         {
@@ -132,6 +143,7 @@ namespace RefundManagementApp
                 {
                     Console.WriteLine(employee.ToString());
                 }
+                Console.WriteLine();
             }
             catch (EmptyEmployeeListException ex)
             {
@@ -140,7 +152,9 @@ namespace RefundManagementApp
 
         }
 
-
+        /// <summary>
+        /// Update the Refund details submitted by employeee
+        /// </summary>
         private void UpdateRefundStatus()
         {
             try
@@ -151,7 +165,7 @@ namespace RefundManagementApp
                 Refund refund = refundBL.GetRefundById(refundId);
                 Console.WriteLine("Enter the status of the refund");
                 string status = Console.ReadLine();
-                string reason;
+                
                 if (status == "Granted")
                 {
                     refund.Status = "Granted";
@@ -166,6 +180,7 @@ namespace RefundManagementApp
                 }
 
                 refundBL.UpdateRefund(refund);
+                Console.WriteLine();
 
             }
             catch (DuplicateEmployeeNameException ex)
@@ -174,6 +189,10 @@ namespace RefundManagementApp
             }
         }
 
+
+        /// <summary>
+        /// Prints all the Refund details
+        /// </summary>
         private void ViewAllRefund()
         {
             try
@@ -182,6 +201,7 @@ namespace RefundManagementApp
                 {
                     Console.WriteLine(refund.ToString());
                 }
+                Console.WriteLine();
             }
             catch (EmptyRefundListException ex)
             {
@@ -191,6 +211,9 @@ namespace RefundManagementApp
 
         }
 
+        /// <summary>
+        /// Prints a particular employee using given id
+        /// </summary>
         private void SearchAndPrintEmployeeById()
         {
             try
@@ -199,6 +222,7 @@ namespace RefundManagementApp
                 int departmentId = Convert.ToInt32(Console.ReadLine());
                 Employee employee = employeeBL.GetEmployeeById(departmentId);
                 Console.WriteLine(employee.ToString());
+                Console.WriteLine();
             }
             catch (EmployeeNotFoundException ex)
             {
@@ -207,6 +231,10 @@ namespace RefundManagementApp
 
         }
 
+
+        /// <summary>
+        /// Allow employees to apply for a refund
+        /// </summary>
         void ApplyForRefund()
         {
             try
@@ -217,6 +245,7 @@ namespace RefundManagementApp
 
                 refundBL.AddRefund(refund);
                 Console.WriteLine("Refund Request Successful");
+                Console.WriteLine();
             }
             catch (DuplicateRefundException ex)
             {
@@ -225,6 +254,9 @@ namespace RefundManagementApp
 
         }
 
+        /// <summary>
+        /// Verify the refund status of the submission
+        /// </summary>
         void VerifyStatusOfRefund()
         {
             try
@@ -238,6 +270,7 @@ namespace RefundManagementApp
                     }
 
                 }
+                Console.WriteLine();
             }
             catch (EmptyRefundListException ex)
             {
@@ -249,7 +282,32 @@ namespace RefundManagementApp
 
         }
 
+        /// <summary>
+        /// View the refunds that have not yet been verified
+        /// </summary>
+        private void ViewUnverifiedRefund()
+        {
+            try
+            {
+                foreach (Refund refund in refundBL.GetAllRefund())
+                {
+                    if (refund.Status == "Not verified")
+                    {
+                        Console.WriteLine(refund.ToString());
+                    }
+                }
+                Console.WriteLine();
+            }
+            catch (EmptyRefundListException ex)
+            {
+                Console.WriteLine(ex.Message.ToString());
+            }
+        }
 
+
+        /// <summary>
+        /// Provide employee interactions
+        /// </summary>
         void EmployeeInteraction()
         {
             int choice = 0;
@@ -264,12 +322,14 @@ namespace RefundManagementApp
                 employee.BuildEmployeeFromConsole();
                 employeeBL.AddEmployee(employee);
                 Console.WriteLine("New Hr added successfully");
+                Console.WriteLine();
             }
             else
             {
-                Console.WriteLine("Enter your Id");
+                Console.WriteLine("Hey new user enter your id");
                 int id = Convert.ToInt32(Console.ReadLine());
                 employee = employeeBL.GetEmployeeById(id);
+                Console.WriteLine();
 
 
             }
@@ -304,6 +364,9 @@ namespace RefundManagementApp
                             ViewAllRefund();
                             break;
                         case 6:
+                            ViewUnverifiedRefund();
+                            break;
+                        case 7:
                             UpdateRefundStatus();
                             break;
                         default:
@@ -347,6 +410,7 @@ namespace RefundManagementApp
 
         }
 
+        
 
         static void Main(string[] args)
         {

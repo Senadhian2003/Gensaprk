@@ -45,14 +45,17 @@ namespace RefundManagementModelLibrary
         public override string ToString()
         {
 
-            return "\nRefund Id\t: " + Id
+            return "\n"
+                + "--------------------------------"
+                + "\nRefund Id\t: " + Id
                 + "\nDescription of Expense\t" + Description
                 + "\nDate of expense\t: " + DateTime
                 + "\nType of Expense\t: " + Type
-                +"\nAmount\t: " + Amount
+                + "\nAmount\t: " + Amount
                 + "\nStatus of refund\t: " + Status
-                + "\nReason\t: " + Reason;
-
+                + "\nReason\t: " + Reason+ "\n"
+                + "--------------------------------";
+                
         }
 
         public virtual void BuildRefundDataFromConsole()

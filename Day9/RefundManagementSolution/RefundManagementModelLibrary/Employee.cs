@@ -58,11 +58,16 @@ namespace RefundManagementModelLibrary
 
         public override string ToString()
         {
-            return "\nEmployee Id : " + Id
+            return "\n"
+                + "--------------------------------"
+                + "\nEmployee Id : " + Id
                 + "\nEmployee Name " + Name
                 + "\nDate of birth : " + DateOfBirth
-                + "\nEmployee Age : " + Age;
-              
+                + "\nEmployee Age : " + Age
+                + "\n"
+                + "--------------------------------";
+
+
 
         }
         public override bool Equals(object? obj)

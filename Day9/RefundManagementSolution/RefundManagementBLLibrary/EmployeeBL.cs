@@ -34,7 +34,7 @@ namespace RefundManagementBLLibrary
             }
 
             Employee employee = GetEmployeeByName(employeeOldName);
-
+            employee.Name = employeeNewName;
             employee = _employeeRepository.Update(employee);
 
            
