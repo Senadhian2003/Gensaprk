@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RefundManagementBLLibrary/1.0.0": {
+        "dependencies": {
+          "RefundManagementDALLibrary": "1.0.0",
+          "RefundManagementModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "RefundManagementBLLibrary.dll": {}
+        }
+      },
+      "RefundManagementDALLibrary/1.0.0": {
+        "dependencies": {
+          "RefundManagementModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "RefundManagementDALLibrary.dll": {}
+        }
+      },
+      "RefundManagementModelLibrary/1.0.0": {
+        "runtime": {
+          "RefundManagementModelLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RefundManagementBLLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefundManagementDALLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefundManagementModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

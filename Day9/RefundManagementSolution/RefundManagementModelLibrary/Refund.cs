@@ -22,7 +22,7 @@ namespace RefundManagementModelLibrary
 
         public string Status { get; set; }
 
-
+        public string Reason { get; set; }
         public Refund() {
         
             Id= 0;
@@ -31,18 +31,27 @@ namespace RefundManagementModelLibrary
             DateTime = DateTime.MinValue;
             Amount = 0;
             Status = "Not verified";
+            Reason = "None";
 
+        }
+
+        public Refund(Employee employee)
+        {
+            EmployeeId = employee.Id;
+            Status = "Not verified";
+            Reason = "None";
         }
 
         public override string ToString()
         {
 
-            return "\nRefund Id : " + Id
-                + "\nDescription of Expense " + Description
-                + "\nDate of expense : " + DateTime
-                + "\nType of Expense : " + Type
-                +"\nAmount : " + Amount
-                + "\nStatus of refund : " + Status;
+            return "\nRefund Id\t: " + Id
+                + "\nDescription of Expense\t" + Description
+                + "\nDate of expense\t: " + DateTime
+                + "\nType of Expense\t: " + Type
+                +"\nAmount\t: " + Amount
+                + "\nStatus of refund\t: " + Status
+                + "\nReason\t: " + Reason;
 
         }
 

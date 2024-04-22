@@ -18,6 +18,7 @@ namespace RefundManagementDALLibrary
         }
         public Employee Add(Employee item)
         {
+            item.Id = GenerateId();
             if (_employees.ContainsValue(item))
             {
                 return null;

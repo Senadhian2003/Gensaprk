@@ -12,6 +12,12 @@ namespace RefundManagementBLLibrary
     public class RefundBL : IRefundServices
     {
         readonly IRepository<int, Refund> _refundRepository;
+
+        public RefundBL()
+        {
+            _refundRepository = new RefundRepository();
+        }
+
         public int AddRefund(Refund refund)
         {
             var result = _refundRepository.Add(refund);

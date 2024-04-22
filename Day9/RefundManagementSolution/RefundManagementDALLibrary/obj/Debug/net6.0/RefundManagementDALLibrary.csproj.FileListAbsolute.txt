@@ -1,0 +1,16 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\bin\Debug\net6.0\RefundManagementDALLibrary.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\bin\Debug\net6.0\RefundManagementDALLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\bin\Debug\net6.0\RefundManagementDALLibrary.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.csproj.AssemblyReference.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundMa.50235F9A.Up2Date
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\refint\RefundManagementDALLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\RefundManagementDALLibrary.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementDALLibrary\obj\Debug\net6.0\ref\RefundManagementDALLibrary.dll

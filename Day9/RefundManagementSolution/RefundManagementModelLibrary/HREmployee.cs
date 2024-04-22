@@ -9,7 +9,7 @@ namespace RefundManagementModelLibrary
     public class HREmployee : Employee
     {
         public HREmployee() {
-            
+            Type = "HR";
         }
     }
 }

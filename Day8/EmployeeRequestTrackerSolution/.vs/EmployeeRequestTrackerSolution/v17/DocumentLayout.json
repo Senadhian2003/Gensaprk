@@ -91,8 +91,7 @@
               "RelativeToolTip": "RequestTrackerBLLibrary\\EmptyEmployeeListException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:56:02.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:56:02.947Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "RequestTrackerBLLibrary\\DuplicateEmployeeNameException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:54:55.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:54:55.437Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "RequestTrackerBLLibrary\\EmployeeNotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:54:03.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:54:03.961Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "RequestTrackerBLLibrary\\EmployeeBL.cs",
               "ViewState": "AQIAAE4AAAAAAAAAAAAowA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T05:54:50.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T05:54:50.984Z"
             },
             {
               "$type": "Document",
@@ -141,7 +137,7 @@
               "RelativeDocumentMoniker": "EmployeeRequestTrackerApp\\DepartmentManager.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day8\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerApp\\DepartmentManager.cs",
               "RelativeToolTip": "EmployeeRequestTrackerApp\\DepartmentManager.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAwwHkAAAAAAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAtwIIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T18:36:03.637Z",
               "EditorCaption": ""

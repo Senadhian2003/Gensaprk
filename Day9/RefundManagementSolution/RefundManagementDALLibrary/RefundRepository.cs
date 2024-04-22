@@ -17,19 +17,20 @@ namespace RefundManagementDALLibrary
         int GenerateId()
         {
             if (_refunds.Count == 0)
-                return 1;
-            int id = 100 + _refunds.Keys.Max();
+                return 100;
+            int id = _refunds.Keys.Max();
             return ++id;
         }
         public Refund Add(Refund item)
         {
+            item.Id = GenerateId();
             if (_refunds.ContainsValue(item))
             {
                 return null;
             }
-            int id = GenerateId();
-            item.Id = id;
-            _refunds.Add(id, item);
+            
+           
+            _refunds.Add(GenerateId(), item);
             return item;
         }
 

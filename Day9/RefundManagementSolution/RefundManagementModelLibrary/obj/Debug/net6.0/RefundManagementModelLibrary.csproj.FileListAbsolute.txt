@@ -1,0 +1,12 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\refint\RefundManagementModelLibrary.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\ref\RefundManagementModelLibrary.dll
