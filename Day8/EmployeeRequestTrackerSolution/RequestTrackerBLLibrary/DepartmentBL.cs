@@ -32,10 +32,10 @@ namespace RequestTrackerBLLibrary
             }
 
             Department department = GetDepartmentByName(departmentOldName);
-
+            department.Name = departmentNewName;
             department = _departmentRepository.Update(department);
 
-            department = _departmentRepository.Update(department);
+            
 
             if(department != null)
             {

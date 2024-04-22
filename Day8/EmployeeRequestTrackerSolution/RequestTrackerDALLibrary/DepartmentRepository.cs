@@ -22,7 +22,9 @@ namespace RequestTrackerDALLibrary
             {
                 return null;
             }
-            _departments.Add(GenerateId(), item);
+            int id = GenerateId();
+            item.Id = id;
+            _departments.Add(id, item);
             return item;
         }
 
@@ -51,12 +53,13 @@ namespace RequestTrackerDALLibrary
 
         public Department Update(Department item)
         {
+            
             if (_departments.ContainsKey(item.Id))
             {
                 _departments[item.Id] = item;
                 return item;
             }
-            return null;
+            return item;
         }
     }
 }
