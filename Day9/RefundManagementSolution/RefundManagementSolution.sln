@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementApp", "RefundManagementApp\RefundManagementApp.csproj", "{D891090F-6434-4E2B-BFC6-41DB7AF3B3A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementApp", "RefundManagementApp\RefundManagementApp.csproj", "{D891090F-6434-4E2B-BFC6-41DB7AF3B3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementModelLibrary", "RefundManagementModelLibrary\RefundManagementModelLibrary.csproj", "{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementModelLibrary", "RefundManagementModelLibrary\RefundManagementModelLibrary.csproj", "{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementDALLibrary", "RefundManagementDALLibrary\RefundManagementDALLibrary.csproj", "{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementDALLibrary", "RefundManagementDALLibrary\RefundManagementDALLibrary.csproj", "{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementBLLibrary", "RefundManagementBLLibrary\RefundManagementBLLibrary.csproj", "{7CC83BAC-855B-4CDB-801A-546BB8681ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementBLLibrary", "RefundManagementBLLibrary\RefundManagementBLLibrary.csproj", "{7CC83BAC-855B-4CDB-801A-546BB8681ED3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

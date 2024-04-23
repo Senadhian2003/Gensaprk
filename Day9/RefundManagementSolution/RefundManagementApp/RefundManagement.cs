@@ -18,36 +18,7 @@ namespace RefundManagementApp
 
         }
 
-        /// <summary>
-        /// Prints The menu for HR
-        /// </summary>
-        void PrintMenuForHR()
-        {
-            Console.WriteLine();
-            Console.WriteLine("HR Functionalities");
-            Console.WriteLine("1. Add Employee");
-            Console.WriteLine("2. Print Employees");
-            Console.WriteLine("3. Search Employee by ID");
-            Console.WriteLine("4. Update Employee name");
-            Console.WriteLine("5. View All Refund");
-            Console.WriteLine("6. View Unverified Refund");
-            Console.WriteLine("7. Update refund status");
-            Console.WriteLine("0. Exit");
-            Console.WriteLine();
-        }
-
-        /// <summary>
-        /// Prints the Menu for Employee
-        /// </summary>
-        void PrintMenuForEmployee()
-        {
-            Console.WriteLine();
-            Console.WriteLine("Employee Functionalities");
-            Console.WriteLine("1. Apply For Refund");
-            Console.WriteLine("2. View Refund status");
-            Console.WriteLine("0. Exit");
-            Console.WriteLine();
-        }
+    
 
         /// <summary>
         /// Adds a new Employee to the repository
@@ -340,7 +311,7 @@ namespace RefundManagementApp
 
                 do
                 {
-                    PrintMenuForHR();
+                    employee.PrintMenuForEmployee();
                     Console.WriteLine("Please select an option");
                     choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -380,7 +351,7 @@ namespace RefundManagementApp
 
                 do
                 {
-                    PrintMenuForEmployee();
+                    employee.PrintMenuForEmployee();
                     Console.WriteLine("Please select an option");
                     choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)

@@ -75,6 +75,20 @@ namespace RefundManagementModelLibrary
 
 
         }
+
+
+        public virtual void PrintMenuForEmployee()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Employee Functionalities");
+            Console.WriteLine("1. Apply For Refund");
+            Console.WriteLine("2. View Refund status");
+            Console.WriteLine("0. Exit");
+            Console.WriteLine();
+        }
+
+
+
         public override bool Equals(object? obj)
         {
             Employee e1, e2;

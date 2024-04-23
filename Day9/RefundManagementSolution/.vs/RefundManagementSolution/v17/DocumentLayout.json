@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D891090F-6434-4E2B-BFC6-41DB7AF3B3A6}|RefundManagementApp\\RefundManagementApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementapp\\refundmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D891090F-6434-4E2B-BFC6-41DB7AF3B3A6}|RefundManagementApp\\RefundManagementApp.csproj|solutionrelative:refundmanagementapp\\refundmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementmodellibrary\\refund.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\refund.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|solutionrelative:refundmanagementbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementbllibrary\\refundbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|solutionrelative:refundmanagementbllibrary\\refundbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}|RefundManagementDALLibrary\\RefundManagementDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementdallibrary\\refundrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}|RefundManagementDALLibrary\\RefundManagementDALLibrary.csproj|solutionrelative:refundmanagementdallibrary\\refundrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D891090F-6434-4E2B-BFC6-41DB7AF3B3A6}|RefundManagementApp\\RefundManagementApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementapp\\refundmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D891090F-6434-4E2B-BFC6-41DB7AF3B3A6}|RefundManagementApp\\RefundManagementApp.csproj|solutionrelative:refundmanagementapp\\refundmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementmodellibrary\\hremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\hremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementbllibrary\\exceptions\\emptyemployeelistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,26 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}|RefundManagementDALLibrary\\RefundManagementDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}|RefundManagementDALLibrary\\RefundManagementDALLibrary.csproj|solutionrelative:refundmanagementdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC83BAC-855B-4CDB-801A-546BB8681ED3}|RefundManagementBLLibrary\\RefundManagementBLLibrary.csproj|solutionrelative:refundmanagementbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}|RefundManagementDALLibrary\\RefundManagementDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementdallibrary\\refundrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BDA0F06-25D0-4FEC-BB1A-C12C825176EC}|RefundManagementDALLibrary\\RefundManagementDALLibrary.csproj|solutionrelative:refundmanagementdallibrary\\refundrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementmodellibrary\\refund.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\refund.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day9\\refundmanagementsolution\\refundmanagementmodellibrary\\hremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCBFAD00-BDE1-474C-A52D-FDBFEDB356C9}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\hremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "EmployeeBL.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\EmployeeBL.cs",
               "RelativeDocumentMoniker": "RefundManagementBLLibrary\\EmployeeBL.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\EmployeeBL.cs",
               "RelativeToolTip": "RefundManagementBLLibrary\\EmployeeBL.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAwDIAAAAvAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T05:32:03.883Z",
               "IsPinned": true,
@@ -68,34 +68,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RefundBL.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\RefundBL.cs",
               "RelativeDocumentMoniker": "RefundManagementBLLibrary\\RefundBL.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\RefundBL.cs",
               "RelativeToolTip": "RefundManagementBLLibrary\\RefundBL.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAEwEoAAAAMAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAASwBYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T05:33:31.947Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmptyEmployeeListException.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
-              "RelativeDocumentMoniker": "RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
-              "RelativeToolTip": "RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:56:44.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "EmployeeNotFoundException.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\Exceptions\\EmployeeNotFoundException.cs",
               "RelativeDocumentMoniker": "RefundManagementBLLibrary\\Exceptions\\EmployeeNotFoundException.cs",
@@ -103,25 +89,23 @@
               "RelativeToolTip": "RefundManagementBLLibrary\\Exceptions\\EmployeeNotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:31:45.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:31:45.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RefundManagement.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementApp\\RefundManagement.cs",
               "RelativeDocumentMoniker": "RefundManagementApp\\RefundManagement.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementApp\\RefundManagement.cs",
               "RelativeToolTip": "RefundManagementApp\\RefundManagement.cs",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAgwJ0AAAAnAAAA",
+              "ViewState": "AQIAAFsBAAAAAAAAAAAwwGEBAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:43:44.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T07:43:44.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementDALLibrary\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "RefundManagementDALLibrary\\EmployeeRepository.cs",
@@ -129,56 +113,66 @@
               "RelativeToolTip": "RefundManagementDALLibrary\\EmployeeRepository.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:35:45.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:35:45.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "RefundRepository.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementDALLibrary\\RefundRepository.cs",
               "RelativeDocumentMoniker": "RefundManagementDALLibrary\\RefundRepository.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementDALLibrary\\RefundRepository.cs",
               "RelativeToolTip": "RefundManagementDALLibrary\\RefundRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwEMAAAAYAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwB4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:47:36.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:47:36.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Refund.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementModelLibrary\\Refund.cs",
               "RelativeDocumentMoniker": "RefundManagementModelLibrary\\Refund.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementModelLibrary\\Refund.cs",
               "RelativeToolTip": "RefundManagementModelLibrary\\Refund.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwDgAAAAzAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:02:54.764Z"
+              "WhenOpened": "2024-04-22T08:02:54.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "EmptyEmployeeListException.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
+              "RelativeDocumentMoniker": "RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
+              "RelativeToolTip": "RefundManagementBLLibrary\\Exceptions\\EmptyEmployeeListException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:56:44.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementModelLibrary\\Employee.cs",
               "RelativeDocumentMoniker": "RefundManagementModelLibrary\\Employee.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementModelLibrary\\Employee.cs",
               "RelativeToolTip": "RefundManagementModelLibrary\\Employee.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAwwEUAAAArAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAUwE8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:42:35.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T07:42:35.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "HREmployee.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementModelLibrary\\HREmployee.cs",
               "RelativeDocumentMoniker": "RefundManagementModelLibrary\\HREmployee.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day9\\RefundManagementSolution\\RefundManagementModelLibrary\\HREmployee.cs",
               "RelativeToolTip": "RefundManagementModelLibrary\\HREmployee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T07:28:31.217Z"
             }
