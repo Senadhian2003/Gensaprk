@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicAppointmentBLTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd76ac6085396a4b7b4d8c3bab02270c22a69f24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+658f8e3696a041ebcda10bde7e4778c932fe2f5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicAppointmentBLTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicAppointmentBLTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

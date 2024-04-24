@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\refint\ShoppingApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ref\ShoppingApp.dll
