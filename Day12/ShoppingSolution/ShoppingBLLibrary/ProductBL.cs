@@ -58,5 +58,18 @@ namespace ShoppingBLLibrary
 
         }
 
+        public Product UpdateProduct(CartItem cartItem)
+        {
+            Product product = _repository.GetByKey(productId);
+            
+
+            if (result != null)
+            {
+                return result;
+            }
+            throw new InsertErrorException("Cart");
+
+        }
+
     }
 }

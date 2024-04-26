@@ -78,19 +78,27 @@ namespace ShoppingBLLibrary
         }
 
 
-        public double Checkout(Customer customer, CartItemBL cartItemBL)
+        public double Checkout(Customer customer, CartItemBL cartItemBL, ProductBL productBL)
         {
             Cart cart = GetCartByKey(customer.Id);
 
             double total = 0;
+
+            int countOfitems = 0;
+
             foreach (CartItem item in cart.CartItems)
             {
                 total += (item.Price + item.ShippingCharge);
                 Console.WriteLine(item);
+                countOfitems++;
                 
                 cartItemBL.RemoveFromCart(item);
             }
 
+            if(countOfitems>=3 && total>1500)
+            {
+                total = total * 0.05;
+            }
 
             return total;
 
