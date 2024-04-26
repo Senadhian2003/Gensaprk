@@ -13,6 +13,13 @@ namespace ShoppingDALLibrary
         static int index = 0;
         public override Product Add(Product entity)
         {
+            var item = items.Find(x => x.Name == entity.Name);
+
+            if(item != null)
+            {
+                return null;
+            }
+
             entity.Id = ++index;
             items.Add(entity);
             return entity;
@@ -48,16 +55,28 @@ namespace ShoppingDALLibrary
 
             Predicate<Product> predicate = (C) => C.Id == item.Id;
 
-            int indexOfEntity = items.IndexOf(item);
+            //int indexOfEntity = items.IndexOf(item);
 
-            if (indexOfEntity == -1)
+            //if (indexOfEntity == -1)
+            //{
+            //    return null;
+            //}
+
+            //items[indexOfEntity] = item;
+
+            //return items[indexOfEntity];
+
+            Product product = items.Find(predicate);
+
+            if (product == null)
             {
-                return null;
+                return null ;
             }
 
-            items[indexOfEntity] = item;
+           
+            product = item;
 
-            return items[indexOfEntity];
+            return product;
 
 
         }

@@ -36,9 +36,17 @@ namespace ShoppingApp
                 productBL.AddProduct(product2);
                 productBL.AddProduct(product3);
 
-
-
                 List<Product> products = productBL.GetProducts();
+
+                Console.WriteLine("Products in list");
+
+                foreach (var item in products)
+                {
+                    Console.WriteLine(item);
+
+                }
+
+                
 
                 Customer customer1 = new Customer() { Name = "Sena", Age = 18, Phone = "8678900238" };
                 Customer customer2 = new Customer() { Name = "Spiderman", Age = 10, Phone = "8678900238" };
@@ -48,7 +56,7 @@ namespace ShoppingApp
 
                 List<Customer> customers = customerBL.GetAll();
 
-                foreach (var item in products)
+                foreach (var item in customers)
                 {
                     Console.WriteLine(item);
 
@@ -60,16 +68,21 @@ namespace ShoppingApp
                 cartBL.AddToCart(customer1, 1, productBL);
                 cartBL.AddToCart(customer1, 2, productBL);
 
-                double total = cartBL.Checkout(customer1);
+                double total = cartBL.Checkout(customer1,productBL);
                 Console.WriteLine("Total\t: " + total);
 
-                List<CartItem> cartItems = cartItemBL.GetAll();
+                List<Product> final = productBL.GetProducts();
 
-                foreach (var item in cartItems)
+                Console.WriteLine("Products in list");
+
+                foreach (var item in final)
                 {
                     Console.WriteLine(item);
 
                 }
+
+
+
             }
             catch (Exception ex)
             {

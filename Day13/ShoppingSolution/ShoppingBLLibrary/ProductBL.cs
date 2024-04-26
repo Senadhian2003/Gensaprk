@@ -23,12 +23,12 @@ namespace ShoppingBLLibrary
         {
             List<Product> products = _repository.GetAll().ToList();
 
-            if (products != null)
+            if (products.Count>0)
             {
                 return products;
             }
 
-            throw new EmptyListException("Cart");
+            throw new EmptyListException("Product");
 
         }
 
@@ -41,7 +41,7 @@ namespace ShoppingBLLibrary
 
             }
 
-            throw new ElementNotFoundException("Cart");
+            throw new ElementNotFoundException("Product");
 
         }
 
@@ -54,21 +54,32 @@ namespace ShoppingBLLibrary
             {
                 return result;
             }
-            throw new InsertErrorException("Cart");
+            throw new InsertErrorException("Product");
 
         }
 
         public Product Update(Product item, int quantity)
         {
 
-            Predicate<Product> predicate = (C) => C.Id == item.Id;
+            //Predicate<Product> predicate = (C) => C.Id == item.Id;
 
-            Product product = _repository.Find(predicate);
+            //Product product = _repository.Find(predicate);
 
-            product.QuantityInHand = product.QuantityInHand - quantity;
+            //product.QuantityInHand = product.QuantityInHand - quantity;
+
+            item.QuantityInHand = item.QuantityInHand - quantity;
 
 
-            return product;
+            Product result = _repository.Update(item);
+
+            if(result != null)
+            {
+                //Console.WriteLine(result);
+                return result;
+
+            }
+
+            throw new ElementNotFoundException("Product");
 
 
         }

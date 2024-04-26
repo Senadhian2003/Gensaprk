@@ -12,7 +12,7 @@ namespace ShoppingBLLibrary.Exceptions
 
         public InsertErrorException(string name)
         {
-           message = "The {name} was not added.";
+           message = $"The {name} was not added.";
         }
 
         public override string Message => message;

@@ -105,7 +105,7 @@ namespace ShoppingBLLibrary
                 total += (item.Price + item.ShippingCharge);
                 Console.WriteLine(item);
                 countOfitems++;
-                productBL.Update()
+                productBL.Update(item.Product, item.Quantity);
                
             }
 
