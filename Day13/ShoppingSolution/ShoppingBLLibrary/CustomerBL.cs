@@ -40,7 +40,7 @@ namespace ShoppingBLLibrary
         {
             List<Customer> customers = _repository.GetAll().ToList();
 
-            if (customers != null)
+            if (customers.Count>0)
             {
                 return customers;
             }

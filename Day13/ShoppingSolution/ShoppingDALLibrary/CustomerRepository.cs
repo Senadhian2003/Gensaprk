@@ -14,6 +14,13 @@ namespace ShoppingDALLibrary
         static int index = 0;
         public override Customer Add(Customer entity)
         {
+            Customer customer = items.Find(x => x.Name == entity.Name);
+
+            if(customer != null)
+            {
+                return null;
+            }
+
             entity.Id = ++index;
             items.Add(entity);
             return entity;
