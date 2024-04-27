@@ -6,21 +6,21 @@ namespace ShoppingDALLibrary
     {
         protected List<T> items = new List<T>();
        
-        public abstract T Add(T item);
-        public ICollection<T> GetAll()
+        public abstract Task<T> Add(T item);
+        public async Task <List<T>> GetAll()
         {
           
             return items.ToList<T>();
         }
 
-        public abstract T Delete(K key);
+        public abstract Task <T> Delete(K key);
         
 
 
 
-        public abstract T GetByKey(K key);
+        public abstract Task<T> GetByKey(K key);
 
-        public abstract T Update(T item);
+        public abstract Task<T> Update(T item);
 
     }
 }

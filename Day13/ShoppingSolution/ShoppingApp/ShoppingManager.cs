@@ -23,7 +23,7 @@ namespace ShoppingApp
 
         }
 
-        public void check()
+        public async void check()
         {
             try
             {
@@ -36,7 +36,7 @@ namespace ShoppingApp
                 productBL.AddProduct(product2);
                 productBL.AddProduct(product3);
 
-                List<Product> products = productBL.GetProducts();
+                List<Product> products = await productBL.GetProducts();
 
                 Console.WriteLine("Products in list");
 
@@ -54,7 +54,7 @@ namespace ShoppingApp
                 customerBL.AddCustomer(customer1, cartBL);
                 customerBL.AddCustomer(customer2, cartBL);
 
-                List<Customer> customers = customerBL.GetAll();
+                List<Customer> customers = await customerBL.GetAll();
 
                 foreach (var item in customers)
                 {
@@ -62,16 +62,16 @@ namespace ShoppingApp
 
                 }
 
-                Cart cart = cartBL.GetCartByKey(1);
+                Cart cart = await cartBL.GetCartByKey(1);
                 Console.WriteLine(cart.Customer.Name);
 
                 cartBL.AddToCart(customer1, 1, productBL);
                 cartBL.AddToCart(customer1, 2, productBL);
 
-                double total = cartBL.Checkout(customer1,productBL);
+                double total = await cartBL.Checkout(customer1,productBL);
                 Console.WriteLine("Total\t: " + total);
 
-                List<Product> final = productBL.GetProducts();
+                List<Product> final = await productBL.GetProducts();
 
                 Console.WriteLine("Products in list");
 

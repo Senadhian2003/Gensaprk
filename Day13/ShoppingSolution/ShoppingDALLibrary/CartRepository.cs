@@ -10,39 +10,39 @@ namespace ShoppingDALLibrary
     public class CartRepository : AbstractRepository<int, Cart>
     {
         static int index = 0;
-        public override Cart Add(Cart entity)
+        public override async Task<Cart> Add(Cart entity)
         {
            
             items.Add(entity);
             return entity;
         }
 
-        public override Cart Delete(int key)
+        public override async Task<Cart> Delete(int key)
         {
 
 
-            Cart customer = GetByKey(key);
+            Cart cart = await GetByKey(key);
 
-            if (customer == null)
+            if (cart == null)
             {
                 return null;
             }
 
-            items.Remove(customer);
-            return customer;
+            items.Remove(cart);
+            return cart;
 
         }
 
-        public override Cart GetByKey(int key)
+        public override async Task<Cart> GetByKey(int key)
         {
             Predicate<Cart> predicate = (C) => C.CustomerId == key;
 
-            Cart customer = items.Find(predicate);
+            Cart cart = items.Find(predicate);
 
-            return customer;
+            return cart;
         }
 
-        public override Cart Update(Cart item)
+        public override async Task<Cart> Update(Cart item)
         {
 
             Predicate<Cart> predicate = (C) => C.CustomerId == item.CustomerId;

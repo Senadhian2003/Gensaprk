@@ -8,15 +8,15 @@ namespace ShoppingDALLibrary
 {
     public interface IRepository <K, T>
     {
-        T Add(T entity);
+        Task<T> Add(T entity);
 
-        ICollection<T> GetAll();
+       Task <List<T>> GetAll();
 
-        T GetByKey(K id);
+        Task<T> GetByKey(K id);
 
-        T Update(T entity);
+        Task<T> Update(T entity);
 
-        T Delete(K id);
+        Task<T> Delete(K id);
 
     }
 }

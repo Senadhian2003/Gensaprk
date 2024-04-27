@@ -20,9 +20,9 @@ namespace ShoppingBLLibrary
             _repository = new CartRepository();
         }
 
-        public Cart CreateCart(Cart cart)
+        public async Task <Cart> CreateCart(Cart cart)
         {
-            Cart result = _repository.Add(cart);
+            Cart result = await _repository.Add(cart);
 
             if (result != null)
             {
@@ -32,25 +32,25 @@ namespace ShoppingBLLibrary
 
         }
 
-        public CartItem AddToCart(Customer customer, int productId, ProductBL productBL)
+        public async Task<CartItem> AddToCart(Customer customer, int productId, ProductBL productBL)
         {
-            Product product = productBL.GetProductByKey(productId);
+            Product product = await productBL.GetProductByKey(productId);
 
             CartItem cartItem = new CartItem(product, customer.Id);
             cartItem.BuildCartItemFromConsole();
 
 
-            cartItem = UpdateCart(customer.Id, cartItem);
+            cartItem = await UpdateCart(customer.Id, cartItem);
 
             return cartItem;
 
         }
 
 
-        public CartItem UpdateCart(int customerId, CartItem cartItem)
+        public async Task<CartItem> UpdateCart(int customerId, CartItem cartItem)
         {
 
-            Cart cart = GetCartByKey(customerId);
+            Cart cart = await GetCartByKey(customerId);
 
             if (cart.CartItems.Count >= 5)
             {
@@ -62,9 +62,9 @@ namespace ShoppingBLLibrary
             return cartItem;
 
         }
-        public Cart GetCartByKey(int customerId)
+        public async Task<Cart> GetCartByKey(int customerId)
         {
-            Cart result = _repository.GetByKey(customerId);
+            Cart result = await _repository.GetByKey(customerId);
 
             if (result != null)
             {
@@ -73,9 +73,9 @@ namespace ShoppingBLLibrary
             throw new ElementNotFoundException("Cart");
         }
 
-        public CartItem DeleteCart(int customerId, int productId)
+        public async Task<CartItem> DeleteCart(int customerId, int productId)
         {
-            Cart cart = GetCartByKey(customerId);
+            Cart cart = await GetCartByKey(customerId);
 
             CartItem cartItem = cart.CartItems.FirstOrDefault((c) => c.ProductId == productId);
 
@@ -92,9 +92,9 @@ namespace ShoppingBLLibrary
         }
 
 
-        public double Checkout(Customer customer, ProductBL productBL)
+        public async Task<double> Checkout(Customer customer, ProductBL productBL)
         {
-            Cart cart = GetCartByKey(customer.Id);
+            Cart cart = await GetCartByKey(customer.Id);
 
             double total = 0;
 

@@ -19,9 +19,9 @@ namespace ShoppingBLLibrary
 
         }
 
-        public List<Product> GetProducts()
+        public async Task<List<Product>> GetProducts()
         {
-            List<Product> products = _repository.GetAll().ToList();
+            List<Product> products = await _repository.GetAll();
 
             if (products.Count>0)
             {
@@ -32,9 +32,9 @@ namespace ShoppingBLLibrary
 
         }
 
-        public Product GetProductByKey(int id)
+        public async Task<Product> GetProductByKey(int id)
         {
-            Product product = _repository.GetByKey(id);
+            Product product = await _repository.GetByKey(id);
             if (product != null)
             {
                 return product;
@@ -45,10 +45,10 @@ namespace ShoppingBLLibrary
 
         }
 
-        public Product AddProduct(Product product)
+        public async Task<Product> AddProduct(Product product)
         {
 
-            Product result = _repository.Add(product);
+            Product result = await _repository.Add(product);
 
             if(result != null)
             {
@@ -58,7 +58,7 @@ namespace ShoppingBLLibrary
 
         }
 
-        public Product Update(Product item, int quantity)
+        public async Task<Product> Update(Product item, int quantity)
         {
 
             //Predicate<Product> predicate = (C) => C.Id == item.Id;
@@ -70,7 +70,7 @@ namespace ShoppingBLLibrary
             item.QuantityInHand = item.QuantityInHand - quantity;
 
 
-            Product result = _repository.Update(item);
+            Product result = await _repository.Update(item);
 
             if(result != null)
             {

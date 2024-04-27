@@ -19,9 +19,9 @@ namespace ShoppingBLLibrary
             _repository = new CustomerRepository();
         }
 
-        public Customer AddCustomer(Customer customer, CartBL cartBL)
+        public async Task<Customer> AddCustomer(Customer customer, CartBL cartBL)
         {
-            Customer result = _repository.Add(customer);
+            Customer result = await _repository.Add(customer);
 
             if(result==null)
             {
@@ -30,15 +30,15 @@ namespace ShoppingBLLibrary
 
             Cart cart = new Cart(result);
 
-            Cart cartResult =  cartBL.CreateCart(cart);
+            Cart cartResult = await  cartBL.CreateCart(cart);
 
             return result;
 
         }
 
-        public List<Customer> GetAll()
+        public async Task<List<Customer>> GetAll()
         {
-            List<Customer> customers = _repository.GetAll().ToList();
+            List<Customer> customers = await _repository.GetAll();
 
             if (customers.Count>0)
             {

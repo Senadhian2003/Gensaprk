@@ -12,7 +12,7 @@ namespace ShoppingDALLibrary
         public CustomerRepository() { }
 
         static int index = 0;
-        public override Customer Add(Customer entity)
+        public override async Task<Customer> Add(Customer entity)
         {
             Customer customer = items.Find(x => x.Name == entity.Name);
 
@@ -26,11 +26,11 @@ namespace ShoppingDALLibrary
             return entity;
         }
 
-        public override Customer Delete(int key)
+        public override async Task<Customer> Delete(int key)
         {
 
 
-            Customer customer = GetByKey(key);
+            Customer customer = await GetByKey(key);
 
             if (customer == null)
             {
@@ -42,7 +42,7 @@ namespace ShoppingDALLibrary
 
         }
 
-        public override Customer GetByKey(int key)
+        public override async Task<Customer> GetByKey(int key)
         {
             Predicate<Customer> predicate = (C) => C.Id == key;
 
@@ -51,7 +51,7 @@ namespace ShoppingDALLibrary
             return customer;
         }
 
-        public override Customer Update(Customer item)
+        public override async Task<Customer> Update(Customer item)
         {
            
             Predicate<Customer> predicate = (C) => C.Id == item.Id;
