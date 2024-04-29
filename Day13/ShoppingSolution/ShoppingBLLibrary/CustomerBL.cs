@@ -48,6 +48,18 @@ namespace ShoppingBLLibrary
             throw new EmptyListException("Customer");
         }
 
-        
+        public async Task<Customer> GetCustomerById(int customerId)
+        {
+            Customer customer = await _repository.GetByKey(customerId);
+
+            if (customer != null)
+            {
+                return customer;
+            }
+
+            throw new EmptyListException("Customer");
+        }
+
+
     }
 }

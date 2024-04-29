@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\bin\Debug\net6.0\LeetcodeProgrammingApp.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\bin\Debug\net6.0\LeetcodeProgrammingApp.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\bin\Debug\net6.0\LeetcodeProgrammingApp.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\bin\Debug\net6.0\LeetcodeProgrammingApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\bin\Debug\net6.0\LeetcodeProgrammingApp.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\refint\LeetcodeProgrammingApp.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\LeetcodeProgrammingApp.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day14\LeetcodeProgrammingSolution\LeetcodeProgrammingApp\obj\Debug\net6.0\ref\LeetcodeProgrammingApp.dll

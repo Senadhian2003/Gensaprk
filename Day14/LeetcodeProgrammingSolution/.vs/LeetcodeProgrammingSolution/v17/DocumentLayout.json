@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day14\\leetcodeprogrammingsolution\\leetcodeprogrammingapp\\linkelistcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|solutionrelative:leetcodeprogrammingapp\\linkelistcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day14\\leetcodeprogrammingsolution\\leetcodeprogrammingapp\\columntitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|solutionrelative:leetcodeprogrammingapp\\columntitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day14\\leetcodeprogrammingsolution\\leetcodeprogrammingapp\\leetcodeprogrammingapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|solutionrelative:leetcodeprogrammingapp\\leetcodeprogrammingapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day14\\leetcodeprogrammingsolution\\leetcodeprogrammingapp\\findminimumdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|solutionrelative:leetcodeprogrammingapp\\findminimumdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkeListCycle.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LinkeListCycle.cs",
+              "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\LinkeListCycle.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LinkeListCycle.cs",
+              "RelativeToolTip": "LeetcodeProgrammingApp\\LinkeListCycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T18:22:42.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeetcodeProgrammingApp",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "RelativeToolTip": "LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-29T18:19:19.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColumnTitle.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\ColumnTitle.cs",
+              "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\ColumnTitle.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\ColumnTitle.cs",
+              "RelativeToolTip": "LeetcodeProgrammingApp\\ColumnTitle.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T18:15:08.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FindMinimumDepth.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\FindMinimumDepth.cs",
+              "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\FindMinimumDepth.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\FindMinimumDepth.cs",
+              "RelativeToolTip": "LeetcodeProgrammingApp\\FindMinimumDepth.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswGYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:00:09.728Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

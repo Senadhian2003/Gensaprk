@@ -121,6 +121,29 @@ namespace ShoppingBLLibrary
 
         }
 
+        public async Task<List<CartItem>> ViewCartItems(Customer customer)
+        {
+            Cart cart = await GetCartByKey(customer.Id);
+
+            
+            if( cart != null )
+            {
+                if(cart.CartItems.Count > 0)
+                {
+                    return cart.CartItems;
+                }
+                throw new EmptyListException("Cart");
+                
+            }
+
+            throw new ElementNotFoundException("Cart");
+          
+
+          
+
+
+        }
+
 
 
 
