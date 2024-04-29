@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day14\\leetcodeprogrammingsolution\\leetcodeprogrammingapp\\findminimumdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|solutionrelative:leetcodeprogrammingapp\\findminimumdepth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day14\\leetcodeprogrammingsolution\\leetcodeprogrammingapp\\leetcodeprogrammingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1907E4DC-172D-4F44-A625-9D0BA45A79C5}|LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj|solutionrelative:leetcodeprogrammingapp\\leetcodeprogrammingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeetcodeProgrammingApp",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "RelativeToolTip": "LeetcodeProgrammingApp\\LeetcodeProgrammingApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-29T19:11:59.525Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +53,7 @@
               "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\LinkeListCycle.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\LinkeListCycle.cs",
               "RelativeToolTip": "LeetcodeProgrammingApp\\LinkeListCycle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAmwFcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:22:42.74Z",
               "EditorCaption": ""
@@ -61,7 +78,7 @@
               "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\ColumnTitle.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\ColumnTitle.cs",
               "RelativeToolTip": "LeetcodeProgrammingApp\\ColumnTitle.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBYAAAArAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:15:08.911Z",
               "EditorCaption": ""
@@ -74,9 +91,10 @@
               "RelativeDocumentMoniker": "LeetcodeProgrammingApp\\FindMinimumDepth.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day14\\LeetcodeProgrammingSolution\\LeetcodeProgrammingApp\\FindMinimumDepth.cs",
               "RelativeToolTip": "LeetcodeProgrammingApp\\FindMinimumDepth.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAswGYAAABAAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwEwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:00:09.728Z"
+              "WhenOpened": "2024-04-29T15:00:09.728Z",
+              "EditorCaption": ""
             }
           ]
         }
