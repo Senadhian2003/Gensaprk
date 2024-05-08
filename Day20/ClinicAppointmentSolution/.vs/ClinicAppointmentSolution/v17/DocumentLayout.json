@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D525E8-31BA-4FCF-8F1E-E5322B5AA614}|ClinicAppointmentApp\\ClinicAppointmentApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D525E8-31BA-4FCF-8F1E-E5322B5AA614}|ClinicAppointmentApp\\ClinicAppointmentApp.csproj|solutionrelative:clinicappointmentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbllibrary\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|solutionrelative:clinicappointmentbllibrary\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbllibrary\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|solutionrelative:clinicappointmentbllibrary\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbllibrary\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|solutionrelative:clinicappointmentbllibrary\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbllibrary\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|solutionrelative:clinicappointmentbllibrary\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbllibrary\\doctorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|solutionrelative:clinicappointmentbllibrary\\doctorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbllibrary\\appointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0FBD2C-0BBD-452C-ABD1-BC908DE7CC36}|ClinicAppointmentBLLibrary\\ClinicAppointmentBLLibrary.csproj|solutionrelative:clinicappointmentbllibrary\\appointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\model\\clinicmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\model\\clinicmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D525E8-31BA-4FCF-8F1E-E5322B5AA614}|ClinicAppointmentApp\\ClinicAppointmentApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentapp\\clinicappointmentapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6D525E8-31BA-4FCF-8F1E-E5322B5AA614}|ClinicAppointmentApp\\ClinicAppointmentApp.csproj|solutionrelative:clinicappointmentapp\\clinicappointmentapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentdallibrary\\clinicappointmentdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{856E4999-E149-4A5B-BA86-A642BCA0ABAC}|ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj|solutionrelative:clinicappointmentdallibrary\\clinicappointmentdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83F55D3-6BA8-4A7A-AC0A-B343799ECE2B}|ClinicAppointmentBLTest\\ClinicAppointmentBLTest.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\clinicappointmentsolution\\clinicappointmentbltest\\appointmentbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83F55D3-6BA8-4A7A-AC0A-B343799ECE2B}|ClinicAppointmentBLTest\\ClinicAppointmentBLTest.csproj|solutionrelative:clinicappointmentbltest\\appointmentbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\PatientRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\PatientRepository.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\PatientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:53:21.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\DoctorRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\DoctorRepository.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\DoctorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:52:51.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\AppointmentRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\AppointmentRepository.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\AppointmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:52:45.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientBL.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\PatientBL.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLLibrary\\PatientBL.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\PatientBL.cs",
+              "RelativeToolTip": "ClinicAppointmentBLLibrary\\PatientBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:52:29.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPatientServices.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\IPatientServices.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLLibrary\\IPatientServices.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\IPatientServices.cs",
+              "RelativeToolTip": "ClinicAppointmentBLLibrary\\IPatientServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:52:21.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDoctorServices.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\IDoctorServices.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLLibrary\\IDoctorServices.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\IDoctorServices.cs",
+              "RelativeToolTip": "ClinicAppointmentBLLibrary\\IDoctorServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:52:15.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAppointmentServices.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\IAppointmentServices.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLLibrary\\IAppointmentServices.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\IAppointmentServices.cs",
+              "RelativeToolTip": "ClinicAppointmentBLLibrary\\IAppointmentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:52:08.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorBL.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\DoctorBL.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLLibrary\\DoctorBL.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\DoctorBL.cs",
+              "RelativeToolTip": "ClinicAppointmentBLLibrary\\DoctorBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:51:54.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentBL.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\AppointmentBL.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLLibrary\\AppointmentBL.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLLibrary\\AppointmentBL.cs",
+              "RelativeToolTip": "ClinicAppointmentBLLibrary\\AppointmentBL.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:51:42.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\Model\\Appointment.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\Appointment.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\Model\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:48:52.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\Patient.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\Model\\Patient.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\Patient.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\Model\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:48:50.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\Doctor.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\Model\\Doctor.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\Doctor.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\Model\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:48:48.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClinicManagementContext.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\ClinicManagementContext.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\Model\\ClinicManagementContext.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\Model\\ClinicManagementContext.cs",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\Model\\ClinicManagementContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:48:43.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClinicAppointmentApp",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentApp\\ClinicAppointmentApp.csproj",
+              "RelativeDocumentMoniker": "ClinicAppointmentApp\\ClinicAppointmentApp.csproj",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentApp\\ClinicAppointmentApp.csproj",
+              "RelativeToolTip": "ClinicAppointmentApp\\ClinicAppointmentApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T17:40:57.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClinicAppointmentDALLibrary",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj",
+              "RelativeDocumentMoniker": "ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj",
+              "RelativeToolTip": "ClinicAppointmentDALLibrary\\ClinicAppointmentDALLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T17:42:07.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentApp\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentApp\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentApp\\Program.cs",
+              "RelativeToolTip": "ClinicAppointmentApp\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:40:49.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppointmentBLTest.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLTest\\AppointmentBLTest.cs",
+              "RelativeDocumentMoniker": "ClinicAppointmentBLTest\\AppointmentBLTest.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\ClinicAppointmentSolution\\ClinicAppointmentBLTest\\AppointmentBLTest.cs",
+              "RelativeToolTip": "ClinicAppointmentBLTest\\AppointmentBLTest.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwEQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:48:55.489Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

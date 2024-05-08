@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\DbDemoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3CA46B-4B4F-4C51-BE57-6244F2E27575}|DbDemoApp\\DbDemoApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\dbdemosolution\\dbdemoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3CA46B-4B4F-4C51-BE57-6244F2E27575}|DbDemoApp\\DbDemoApp.csproj|solutionrelative:dbdemoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3CA46B-4B4F-4C51-BE57-6244F2E27575}|DbDemoApp\\DbDemoApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day20\\dbdemosolution\\dbdemoapp\\model\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3CA46B-4B4F-4C51-BE57-6244F2E27575}|DbDemoApp\\DbDemoApp.csproj|solutionrelative:dbdemoapp\\model\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\DbDemoSolution\\DbDemoApp\\Model\\Area.cs",
+              "RelativeDocumentMoniker": "DbDemoApp\\Model\\Area.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\DbDemoSolution\\DbDemoApp\\Model\\Area.cs",
+              "RelativeToolTip": "DbDemoApp\\Model\\Area.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:47:26.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\DbDemoSolution\\DbDemoApp\\Program.cs",
+              "RelativeDocumentMoniker": "DbDemoApp\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day20\\DbDemoSolution\\DbDemoApp\\Program.cs",
+              "RelativeToolTip": "DbDemoApp\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:10:22.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

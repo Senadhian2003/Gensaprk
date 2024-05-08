@@ -33,7 +33,10 @@ select t.title, t.price, s.qty, (t.price * s.qty) 'Total Cost' from titles t joi
 join employee e on e.pub_id = t.pub_id where e.fname=@ename
 end
 
-exec proc_PrintBooksWithEmployeeFname 'Pedro'
+select t.title, sum(t.price)'Price', sum(s.qty)'Qty', sum((t.price * s.qty)) 'Total Cost' from titles t join sales s on t.title_id = s.title_id
+join employee e on e.pub_id = t.pub_id where e.fname='Paul' group by t.title;
+
+exec proc_PrintBooksWithEmployeeFname 'Paul'
 
 ---3) Create a query that will print all names from authors and employees
 select au_fname from authors 
