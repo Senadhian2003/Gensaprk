@@ -7,8 +7,8 @@ namespace ClinicAppointmentBLLibrary
     public class DoctorBL : IDoctorServices
     {
         readonly IRepositoryInterface<int, Doctor> _doctorRepository;
-        public DoctorBL(IRepositoryInterface<int, Doctor> doctorRepository) {
-            _doctorRepository = doctorRepository;
+        public DoctorBL() {
+            _doctorRepository = new DoctorRepository(new ClinicManagementContext());
         }
         public int AddDoctor(Doctor doctor)
         {
@@ -57,7 +57,7 @@ namespace ClinicAppointmentBLLibrary
         {
             Doctor doctor;
 
-            doctor = _doctorRepository.Get(id);
+            doctor = _doctorRepository.GetById(id);
 
             if (doctor != null)
             {

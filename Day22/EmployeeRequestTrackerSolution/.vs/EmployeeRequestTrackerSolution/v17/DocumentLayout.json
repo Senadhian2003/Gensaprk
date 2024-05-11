@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\requestsolutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\requestsolutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\Interface\\IRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\Interface\\IRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:00:12.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestSolutionRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:59:22.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\RequestRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\RequestRepository.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowEQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:51:37.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

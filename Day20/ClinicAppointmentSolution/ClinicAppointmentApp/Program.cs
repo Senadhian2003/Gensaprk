@@ -6,12 +6,12 @@ namespace ClinicAppointmentApp
 {
     internal class Program
     {
-        DoctorRepository doctorRepository = new DoctorRepository();
+        
         DoctorBL doctorService ;
 
         public Program()
         {
-            doctorService = new DoctorBL(doctorRepository);
+            doctorService = new DoctorBL();
         }
 
         void AddDoc()
@@ -25,7 +25,8 @@ namespace ClinicAppointmentApp
         {
             Program program = new Program();
 
-            program.AddDoc();  
+            Doctor doctor = program.doctorService.GetDoctorByName("S"); 
+            doctor.PrintDetails();
         }
     }
 }

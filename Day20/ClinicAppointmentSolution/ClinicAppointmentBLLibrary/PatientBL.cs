@@ -12,9 +12,9 @@ namespace ClinicAppointmentBLLibrary
     public class PatientBL : IPatientServices
     {
         readonly IRepositoryInterface<int, Patient> _patientRepository;
-        public PatientBL(IRepositoryInterface<int, Patient> patientRepository)
+        public PatientBL()
         {
-            _patientRepository = patientRepository;
+            _patientRepository = new PatientRepository(new ClinicManagementContext());
         }
         public int AddPatient(Patient patient)
         {
@@ -63,7 +63,7 @@ namespace ClinicAppointmentBLLibrary
         {
             Patient patient;
 
-            patient = _patientRepository.Get(id);
+            patient = _patientRepository.GetById(id);
 
             if (patient != null)
             {

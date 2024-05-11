@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicAppointmentDALLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f59aa54c1e5fbbeae5238cedcc29c0e0741e93ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ae7a7520221f65031db919bbe47f371544da4aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicAppointmentDALLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicAppointmentDALLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

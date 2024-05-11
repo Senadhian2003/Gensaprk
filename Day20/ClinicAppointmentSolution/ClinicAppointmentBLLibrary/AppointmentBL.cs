@@ -12,8 +12,8 @@ namespace ClinicAppointmentBLLibrary
     public class AppointmentBL : IAppointmentServices
     {
         readonly IRepositoryInterface<int, Appointment> _appointmentRepository;
-        public AppointmentBL(IRepositoryInterface<int, Appointment> appointmentRepository) {
-            _appointmentRepository = appointmentRepository;
+        public AppointmentBL() {
+            _appointmentRepository = new AppointmentRepository(new ClinicManagementContext());
         }
 
         public List<Appointment> GetAllAppointments()
@@ -34,7 +34,7 @@ namespace ClinicAppointmentBLLibrary
         {
             Appointment appointment;
 
-            appointment = _appointmentRepository.Get(id);
+            appointment = _appointmentRepository.GetById(id);
 
             if (appointment != null)
             {
@@ -63,7 +63,7 @@ namespace ClinicAppointmentBLLibrary
 
             Console.WriteLine("Enter date of appointment");
             DateTime date = Convert.ToDateTime( Console.ReadLine());
-            result.Date = date;
+            result.DateOfAppointment = date;
             result.Status = "Approved";
             
             result = _appointmentRepository.Update(result);

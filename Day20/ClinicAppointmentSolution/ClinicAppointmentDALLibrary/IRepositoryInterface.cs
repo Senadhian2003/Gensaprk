@@ -12,11 +12,11 @@ namespace ClinicAppointmentDALLibrary
         T Add(T item);
         List <T> GetAll();
 
-        T Get(K key);
+        T GetById(K key);
 
         T Update(T item);
 
-        T Delete(K key);
+        T DeleteById(K key);
 
 
 
