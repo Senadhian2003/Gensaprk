@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerfeapp\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|solutionrelative:requesttrackerfeapp\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerfeapp\\requesttrackerfeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|solutionrelative:requesttrackerfeapp\\requesttrackerfeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerbllibrary\\adminbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\adminbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerbllibrary\\employeeloginbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\employeeloginbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerbllibrary\\interface\\iadminservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\interface\\iadminservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackermodellibrary\\requestsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\requestsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackermodellibrary\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackermodellibrary\\requesttrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\requesttrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerfeapp\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|solutionrelative:requesttrackerfeapp\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerfeapp\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|solutionrelative:requesttrackerfeapp\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerfeapp\\requesttrackerfeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4B8EC9-5CCC-4960-804C-A384C3B1D3DD}|RequestTrackerFEAPP\\RequestTrackerFEAPP.csproj|solutionrelative:requesttrackerfeapp\\requesttrackerfeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D668B6-45B3-4873-A8E5-F4EAFC5769C1}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackerdallibrary\\requestsolutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E2D9872-350E-46FF-BD17-CFB3AD3CC3D6}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\requestsolutionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day22\\employeerequesttrackersolution\\requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43811FDD-7A24-448C-AC01-42DCD16CAB4F}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Migrations\\20240512212813_seventh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RequestTrackerModelLibrary\\Migrations\\20240512212813_seventh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Migrations\\20240512204639_sixth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RequestTrackerModelLibrary\\Migrations\\20240512204639_sixth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +58,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDashboard.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\UserDashboard.cs",
-              "RelativeDocumentMoniker": "RequestTrackerFEAPP\\UserDashboard.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\UserDashboard.cs",
-              "RelativeToolTip": "RequestTrackerFEAPP\\UserDashboard.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwBwAAAAQAAAA",
+              "DocumentIndex": 5,
+              "Title": "EmployeeDashboard.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\EmployeeDashboard.cs",
+              "RelativeDocumentMoniker": "RequestTrackerFEAPP\\EmployeeDashboard.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\EmployeeDashboard.cs",
+              "RelativeToolTip": "RequestTrackerFEAPP\\EmployeeDashboard.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwEMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T18:52:53.965Z",
+              "WhenOpened": "2024-05-12T20:58:36.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EmployeeLoginBL.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\EmployeeLoginBL.cs",
-              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\EmployeeLoginBL.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\EmployeeLoginBL.cs",
-              "RelativeToolTip": "RequestTrackerBLLibrary\\EmployeeLoginBL.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCIAAAAXAAAA",
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "RequestTrackerFEAPP\\AdminDashboard.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\AdminDashboard.cs",
+              "RelativeToolTip": "RequestTrackerFEAPP\\AdminDashboard.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwCUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:55:20.415Z",
+              "WhenOpened": "2024-05-12T21:41:19.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RequestRepository.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestRepository.cs",
-              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\RequestRepository.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestRepository.cs",
-              "RelativeToolTip": "RequestTrackerDALLibrary\\RequestRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDEAAAAaAAAA",
+              "Title": "EmployeeBL.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:47:17.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAdminServices.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\Interface\\IAdminServices.cs",
-              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\Interface\\IAdminServices.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\Interface\\IAdminServices.cs",
-              "RelativeToolTip": "RequestTrackerBLLibrary\\Interface\\IAdminServices.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:23:54.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminBL.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\AdminBL.cs",
-              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\AdminBL.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\AdminBL.cs",
-              "RelativeToolTip": "RequestTrackerBLLibrary\\AdminBL.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAwFkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:20:22.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RequestSolution.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\RequestSolution.cs",
-              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\RequestSolution.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\RequestSolution.cs",
-              "RelativeToolTip": "RequestTrackerModelLibrary\\RequestSolution.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA4wC4AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T14:03:40.551Z",
+              "WhenOpened": "2024-05-12T21:03:13.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RequestTrackerFEAPP.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
-              "RelativeDocumentMoniker": "RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
-              "RelativeToolTip": "RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA6wBEAAAAJAAAA",
+              "Title": "RequestRepository.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\RequestRepository.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\RequestRepository.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAcwDcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:22:09.586Z",
+              "WhenOpened": "2024-05-12T21:13:28.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminBL.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\AdminBL.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\AdminBL.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerBLLibrary\\AdminBL.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\AdminBL.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwEsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:58:45.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Request.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Request.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Request.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Request.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAmwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:26:44.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Employee.cs",
-              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Employee.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Employee.cs",
-              "RelativeToolTip": "RequestTrackerModelLibrary\\Employee.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAiwCIAAAAiAAAA",
+              "Title": "RequestTrackerContext.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerContext.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\RequestTrackerContext.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerContext.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\RequestTrackerContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:19:56.743Z",
+              "WhenOpened": "2024-05-12T21:15:10.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestTrackerFEAPP.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
+              "RelativeDocumentMoniker": "RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
+              "RelativeToolTip": "RequestTrackerFEAPP\\RequestTrackerFEAPP.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwDYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T20:40:48.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "FeedbackRepository.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\FeedbackRepository.cs",
-              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\FeedbackRepository.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\FeedbackRepository.cs",
-              "RelativeToolTip": "RequestTrackerDALLibrary\\FeedbackRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAASwBUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:25:47.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\EmployeeRepository.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\EmployeeRepository.cs",
               "RelativeToolTip": "RequestTrackerDALLibrary\\EmployeeRepository.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAgwD4AAAAYAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwCQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:59:24.51Z",
+              "WhenOpened": "2024-05-12T20:47:20.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Employee.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Employee.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Employee.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA0wCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T20:39:14.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "RequestSolutionRepository.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
-              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
-              "RelativeToolTip": "RequestTrackerDALLibrary\\RequestSolutionRepository.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAIAwwC8AAAAAAAAA",
+              "Title": "20240512212813_seventh.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Migrations\\20240512212813_seventh.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Migrations\\20240512212813_seventh.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Migrations\\20240512212813_seventh.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Migrations\\20240512212813_seventh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:56:56.529Z"
+              "WhenOpened": "2024-05-12T21:28:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240512204639_sixth.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Migrations\\20240512204639_sixth.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Migrations\\20240512204639_sixth.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day22\\EmployeeRequestTrackerSolution\\RequestTrackerModelLibrary\\Migrations\\20240512204639_sixth.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Migrations\\20240512204639_sixth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T20:46:39.642Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -39,7 +39,7 @@ namespace RequestTrackerBLLibrary
 
         public async Task<Employee> Register(Employee employee)
         {
-            var result = await _repository.Add(employee);
+            Employee result = await _repository.Add(employee);
             return result;
         }
 

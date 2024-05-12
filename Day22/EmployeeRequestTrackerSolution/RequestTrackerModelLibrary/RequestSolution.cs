@@ -30,15 +30,15 @@ namespace RequestTrackerModelLibrary
         public ICollection<SolutionFeedback> Feedbacks { get; set; }
 
 
-        public RequestSolution(Employee employee, Request request)
-        {
-            RequestId = request.RequestNumber;
-            RequestRaised = request;
-            SolvedBy = employee.Id;
-            SolvedByEmployee = employee;
-            SolvedDate = DateTime.Now;
+        //public RequestSolution(Employee employee, Request request)
+        //{
+        //    RequestId = request.RequestNumber;
+        //    RequestRaised = request;
+        //    SolvedBy = employee.Id;
+        //    SolvedByEmployee = employee;
+        //    SolvedDate = DateTime.Now;
 
-        }
+        //}
 
         public void GetSolutionDescription()
         {

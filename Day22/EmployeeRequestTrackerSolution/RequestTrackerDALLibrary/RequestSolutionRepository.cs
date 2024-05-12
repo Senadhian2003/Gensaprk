@@ -41,7 +41,7 @@ namespace RequestTrackerDALLibrary
 
         public async Task<RequestSolution> GetByKey(int key)
         {
-            RequestSolution emp = await _context.RequestSolutions.FirstOrDefaultAsync(e => e.SolutionId == key); ;
+            RequestSolution emp = await _context.RequestSolutions.Include(e => e.Feedbacks).FirstOrDefaultAsync(e => e.SolutionId == key); ;
             return emp;
 
         }

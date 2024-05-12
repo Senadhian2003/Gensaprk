@@ -26,8 +26,8 @@ namespace RequestTrackerBLLibrary
 
         public async Task<int> RaiseRequest(Employee employee)
         {
-            Request request = new Request(employee);
-            request.BuildRequestFromConsole(); 
+            Request request = new Request() { RequestStatus = "Ticket Raised", RequestRaisedBy = employee.Id};
+            request.BuildRequestFromConsole();
             await _requestRepository.Add(request);
             return request.RequestNumber;
 
@@ -122,7 +122,12 @@ namespace RequestTrackerBLLibrary
 
             RequestSolution requestSolution = await _requestSolutionRepository.GetByKey(solutionId);
 
-            SolutionFeedback feedback = new SolutionFeedback(employee, requestSolution);
+            SolutionFeedback feedback = new SolutionFeedback() { FeedbackDate = DateTime.Now,
+            FeedbackByEmployee = employee,
+            FeedbackBy = employee.Id,
+            Solution = requestSolution,
+            SolutionId = requestSolution.SolutionId
+        };
 
             feedback.GetFeedBack();
 

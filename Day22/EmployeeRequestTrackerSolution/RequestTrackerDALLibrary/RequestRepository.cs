@@ -22,10 +22,18 @@ namespace RequestTrackerDALLibrary
 
         public async Task<Request> Add(Request entity)
         {
-            _context.Add(entity);
-            await _context.SaveChangesAsync();
-            return entity;
+            try
+            {
+                _context.Add(entity);
+                await _context.SaveChangesAsync();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
 
+            return null;
         }
 
         public async Task<Request> DeleteByKey(int key)

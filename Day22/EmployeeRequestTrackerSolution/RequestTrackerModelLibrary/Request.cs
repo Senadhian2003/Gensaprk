@@ -20,11 +20,11 @@ namespace RequestTrackerModelLibrary
         public string RequestStatus { get; set; }
 
 
-        public int RequestRaisedBy { get; set; }
+        public int? RequestRaisedBy { get; set; }
 
         public Employee RaisedByEmployee { get; set; }
 
-        public int RequestClosedBy { get; set; }
+        public int? RequestClosedBy { get; set; }
 
 
         public Employee RequestClosedByEmployee { get; set; }
@@ -32,13 +32,13 @@ namespace RequestTrackerModelLibrary
         public ICollection<RequestSolution> RequestSolutions { get; set; }
 
 
-        public Request(Employee employee)
-        {
-           
-            RequestStatus = "Ticket Raised";
-            RaisedByEmployee = employee;
-            RequestRaisedBy = employee.Id;
-        }
+        //public Request(Employee employee)
+        //{
+
+        //    RequestStatus = "Ticket Raised";
+        //    RaisedByEmployee = employee;
+        //    RequestRaisedBy = employee.Id;
+        //}
 
         public void BuildRequestFromConsole()
         {

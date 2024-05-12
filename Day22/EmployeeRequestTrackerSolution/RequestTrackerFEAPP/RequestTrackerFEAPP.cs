@@ -18,7 +18,7 @@ namespace RequestTrackerFEAPP
         }
 
 
-        async void EmployeeInteraction()
+        async Task EmployeeInteraction()
         {
             int choice = 0;
             Console.WriteLine("Select the option.\n1.Login\n2.Register");
@@ -30,16 +30,16 @@ namespace RequestTrackerFEAPP
                 Console.WriteLine("Enter your Password");
                 string password = Console.ReadLine();
 
-                Employee employee = new Employee();
+                Employee emp = new Employee();
 
-                employee.Id = id;
-                employee.Password = password;
+                emp.Id = id;
+                emp.Password = password;
 
                 int cnt = 0;
-                 bool login = await loginBL.Login(employee) ;
+                 bool login = await loginBL.Login(emp) ;
                 if(login)
                 {
-                    employee = await loginBL.GetEmployee(employee) ;
+                    employee = await loginBL.GetEmployee(emp) ;
                     Console.WriteLine("Login Successful");
                 }
                 else
@@ -48,12 +48,17 @@ namespace RequestTrackerFEAPP
                 }
 
             }
-            else
+            else if(option == 2)
             {
                 Employee emp = new Employee();
                 emp.BuildEmployeeFromConsole();
                 employee = await loginBL.Register(emp);
+                await Console.Out.WriteLineAsync("User added successfully");
 
+            }
+            else
+            {
+                employee = null;
             }
 
             if(employee != null)
@@ -61,20 +66,20 @@ namespace RequestTrackerFEAPP
 
                 if (employee.Role == "Employee")
                 {
-                    EmployeeDashboard dashboard = new EmployeeDashboard();
-                    dashboard.Interactions();
+                    EmployeeDashboard dashboard = new EmployeeDashboard(employee);
+                    await dashboard.Interactions();
                 }
                 else
                 {
-                    AdminDashboard dashboard = new AdminDashboard();
-                    dashboard.Interactions();
-                    
+                    AdminDashboard dashboard = new AdminDashboard(employee);
+                    await dashboard.Interactions();
+
                 }
 
 
             }
 
-            EmployeeInteraction();
+            await EmployeeInteraction();
             
 
 
@@ -84,7 +89,8 @@ namespace RequestTrackerFEAPP
 
         static async Task Main(string[] args)
         {
-
+            RequestTrackerFEAPP app = new RequestTrackerFEAPP();
+            await app.EmployeeInteraction();
         }
 
 

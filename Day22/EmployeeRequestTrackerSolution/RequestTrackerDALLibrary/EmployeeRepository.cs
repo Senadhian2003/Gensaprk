@@ -16,9 +16,23 @@ namespace RequestTrackerDALLibrary
 
         public async Task<Employee> Add(Employee entity)
         {
-           _context.Add(entity);
-           await _context.SaveChangesAsync();
-           return entity;
+            //_context.Employees.Add(entity);
+            //_context.SaveChangesAsync();
+            //return entity;
+
+            try
+            {
+                _context.Employees.Add(entity);
+                await _context.SaveChangesAsync();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                // Log or handle the exception appropriately
+                Console.WriteLine(ex.Message);
+                throw; // Rethrow the exception if needed
+            }
+
 
         }
 
@@ -36,7 +50,7 @@ namespace RequestTrackerDALLibrary
 
         public async Task<Employee> GetByKey(int key)
         {
-            Employee emp = await _context.Employees.FirstOrDefaultAsync(e=>e.Id == key);
+            Employee emp = await _context.Employees.Include(e=>e.RequestsRaised).FirstOrDefaultAsync(e=>e.Id == key);
             return emp;
             
         }

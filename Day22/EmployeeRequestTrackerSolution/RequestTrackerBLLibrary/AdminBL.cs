@@ -55,20 +55,31 @@ namespace RequestTrackerBLLibrary
                 Console.WriteLine(request);
 
             }
+            Console.WriteLine();
 
             Console.WriteLine("Enter the request number to provide a solution");
 
             int requestNumber = Convert.ToInt32(Console.ReadLine());
 
             Request request1 = await _requestRepository.GetByKey(requestNumber);
-            if(request1 != null)
-            {
-                RequestSolution requestSolution = new RequestSolution(employee, request1);
-                requestSolution.GetSolutionDescription();
+            if(request1 != null) {
+                {
+                    RequestSolution requestSolution = new RequestSolution()
+                    {
+                        RequestId = request1.RequestNumber,
+                        RequestRaised = request1,
+                        SolvedBy = employee.Id,
+                        SolvedByEmployee = employee,
+                        SolvedDate = DateTime.Now,
+                        IsSolved = false
+                    };
+                    requestSolution.GetSolutionDescription();
 
-                await _requestSolutionRepository.Add(requestSolution);
+                    await _requestSolutionRepository.Add(requestSolution);
 
-                return requestSolution;
+                    return requestSolution;
+                }
+
             }
            
 

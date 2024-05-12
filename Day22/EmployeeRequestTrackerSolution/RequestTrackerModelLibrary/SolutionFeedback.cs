@@ -19,14 +19,14 @@ namespace RequestTrackerModelLibrary
         public Employee FeedbackByEmployee { get; set; }
         public DateTime FeedbackDate { get; set; }
 
-        public SolutionFeedback(Employee employee, RequestSolution solution)
-        {
-            FeedbackDate = DateTime.Now;
-            FeedbackByEmployee = employee;
-            FeedbackBy = employee.Id;
-            Solution = solution;
-            SolutionId = solution.SolutionId;
-        }
+        //public SolutionFeedback(Employee employee, RequestSolution solution)
+        //{
+        //    FeedbackDate = DateTime.Now;
+        //    FeedbackByEmployee = employee;
+        //    FeedbackBy = employee.Id;
+        //    Solution = solution;
+        //    SolutionId = solution.SolutionId;
+        //}
 
         public void GetFeedBack()
         {
