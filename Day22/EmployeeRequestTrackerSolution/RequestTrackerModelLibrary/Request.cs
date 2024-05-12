@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace RequestTrackerModelLibrary
 {
@@ -29,6 +30,37 @@ namespace RequestTrackerModelLibrary
         public Employee RequestClosedByEmployee { get; set; }
 
         public ICollection<RequestSolution> RequestSolutions { get; set; }
+
+
+        public Request(Employee employee)
+        {
+           
+            RequestStatus = "Ticket Raised";
+            RaisedByEmployee = employee;
+            RequestRaisedBy = employee.Id;
+        }
+
+        public void BuildRequestFromConsole()
+        {
+            Console.WriteLine("Enter the issue");
+            RequestMessage = Console.ReadLine();
+
+        }
+
+        public override string ToString()
+        {
+            return "\n"
+                + "--------------------------------"
+                + "\nRequest Id : " + RequestNumber
+                + "\nRequest Message : " + RequestMessage
+                + "\nStatus : " + RequestStatus
+                + "\nTicket raised date : " + RequestDate;
+                
+               
+
+
+
+        }
 
 
     }

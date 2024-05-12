@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace RequestTrackerDALLibrary
 {
-    public class RequestSolutionRepository : IRepository<int, RequestSolution>
+    public class FeedbackRepository : IRepository<int, SolutionFeedback>
     {
         private readonly RequestTrackerContext _context;
 
-        public RequestSolutionRepository(RequestTrackerContext context)
+        public FeedbackRepository(RequestTrackerContext context)
         {
             _context = context;
+
         }
 
-
-        public async Task<RequestSolution> Add(RequestSolution entity)
+        public async Task<SolutionFeedback> Add(SolutionFeedback entity)
         {
             _context.Add(entity);
             await _context.SaveChangesAsync();
@@ -27,9 +27,9 @@ namespace RequestTrackerDALLibrary
 
         }
 
-        public async Task<RequestSolution> DeleteByKey(int key)
+        public async Task<SolutionFeedback> DeleteByKey(int key)
         {
-            RequestSolution emp = await GetByKey(key);
+            SolutionFeedback emp = await GetByKey(key);
             if (emp != null)
             {
                 _context.Remove(emp);
@@ -39,25 +39,25 @@ namespace RequestTrackerDALLibrary
             return emp;
         }
 
-        public async Task<RequestSolution> GetByKey(int key)
+        public async Task<SolutionFeedback> GetByKey(int key)
         {
-            RequestSolution emp = await _context.RequestSolutions.FirstOrDefaultAsync(e => e.SolutionId == key); ;
+            SolutionFeedback emp = await _context.Feedbacks.FirstOrDefaultAsync(e => e.SolutionId == key);
             return emp;
 
         }
 
-        public async Task<List<RequestSolution>> GetAll()
+        public async Task<List<SolutionFeedback>> GetAll()
         {
-            return await _context.RequestSolutions.ToListAsync();
+            return await _context.Feedbacks.ToListAsync();
         }
 
-        public async Task<RequestSolution> Update(RequestSolution entity)
+        public async Task<SolutionFeedback> Update(SolutionFeedback entity)
         {
             // _context.Update(entity);
             //await _context.SaveChangesAsync();
             //return entity;
 
-            RequestSolution emp = await GetByKey(entity.SolutionId);
+            SolutionFeedback emp = await GetByKey(entity.FeedbackId);
             if (emp != null)
             {
                 _context.Update(entity);
@@ -68,6 +68,5 @@ namespace RequestTrackerDALLibrary
             return null;
 
         }
-
     }
 }

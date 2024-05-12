@@ -22,9 +22,9 @@ namespace RequestTrackerDALLibrary
 
         }
 
-        public async Task<Employee> Delete(int key)
+        public async Task<Employee> DeleteByKey(int key)
         {
-            Employee emp = await Get(key);
+            Employee emp = await GetByKey(key);
             if (emp != null)
             {
                 _context.Remove(emp);
@@ -34,14 +34,14 @@ namespace RequestTrackerDALLibrary
             return emp;
         }
 
-        public async Task<Employee> Get(int key)
+        public async Task<Employee> GetByKey(int key)
         {
             Employee emp = await _context.Employees.FirstOrDefaultAsync(e=>e.Id == key);
             return emp;
             
         }
 
-        public async Task<IList<Employee>> GetAll()
+        public async Task<List<Employee>> GetAll()
         {
             return await _context.Employees.ToListAsync();
         }
@@ -52,15 +52,15 @@ namespace RequestTrackerDALLibrary
             //await _context.SaveChangesAsync();
             //return entity;
 
-            Employee emp = await Get(entity.Id);
+            Employee emp = await GetByKey(entity.Id);
             if (emp != null)
             {
                 _context.Update(entity);
                 _context.SaveChanges();
-                
+                return entity;
             }
 
-            return emp;
+            return null;
 
         }
     }

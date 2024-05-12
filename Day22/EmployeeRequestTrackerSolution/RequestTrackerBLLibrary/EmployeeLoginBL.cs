@@ -15,7 +15,7 @@ namespace RequestTrackerBLLibrary
 
         public async Task<bool> Login(Employee employee)
         {
-           Employee emp = await _repository.Get(employee.Id);
+           Employee emp = await _repository.GetByKey(employee.Id);
 
             if(emp != null)
             {
@@ -29,10 +29,24 @@ namespace RequestTrackerBLLibrary
             return false;
         }
 
+        public async Task<Employee> GetEmployee(Employee employee)
+        {
+            Employee emp = await _repository.GetByKey(employee.Id);
+            return emp;
+           
+        }
+
+
         public async Task<Employee> Register(Employee employee)
         {
             var result = await _repository.Add(employee);
             return result;
         }
+
+        public async Task<List<Employee>> GetEmployeesAsync()
+        {
+           return await _repository.GetAll();
+        }
+
     }
 }

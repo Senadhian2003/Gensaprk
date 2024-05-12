@@ -25,7 +25,7 @@ namespace RequestTrackerBLLibrary
 
         public async Task<Request> GetRequest(int RequestId)
         {
-           Request result = await _repository.Get(RequestId);
+           Request result = await _repository.GetByKey(RequestId);
             return result;
         }
     }

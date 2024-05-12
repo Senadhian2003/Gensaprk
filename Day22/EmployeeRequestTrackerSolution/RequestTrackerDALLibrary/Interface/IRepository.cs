@@ -13,7 +13,7 @@ namespace RequestTrackerDALLibrary.Interface
 
         Task<T> GetByKey(K key);
 
-        Task<IList<T>> GetAll();
+        Task<List<T>> GetAll();
 
         Task<T> Update(T entity);
 

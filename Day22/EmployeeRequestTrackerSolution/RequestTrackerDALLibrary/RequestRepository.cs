@@ -47,7 +47,7 @@ namespace RequestTrackerDALLibrary
 
         }
 
-        public async Task<IList<Request>> GetAll()
+        public async Task<List<Request>> GetAll()
         {
             return await _context.Requests.ToListAsync();
         }
@@ -63,10 +63,10 @@ namespace RequestTrackerDALLibrary
             {
                 _context.Update(entity);
                 _context.SaveChanges();
-
+                return entity;
             }
 
-            return entity;
+            return null;
 
         }
 

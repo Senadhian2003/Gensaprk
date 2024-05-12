@@ -19,5 +19,26 @@ namespace RequestTrackerModelLibrary
         public Employee FeedbackByEmployee { get; set; }
         public DateTime FeedbackDate { get; set; }
 
+        public SolutionFeedback(Employee employee, RequestSolution solution)
+        {
+            FeedbackDate = DateTime.Now;
+            FeedbackByEmployee = employee;
+            FeedbackBy = employee.Id;
+            Solution = solution;
+            SolutionId = solution.SolutionId;
+        }
+
+        public void GetFeedBack()
+        {
+            Console.WriteLine("Enter the Feedback for solution");
+
+            Remarks = Console.ReadLine();
+
+            Console.WriteLine("How well would you rate the solution out of 10");
+
+            Rating = (float)Convert.ToDecimal( Console.ReadLine());
+
+        }
+
     }
 }
