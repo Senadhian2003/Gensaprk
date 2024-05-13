@@ -37,7 +37,7 @@ namespace RequestTrackerModelLibrary
             Console.WriteLine("How well would you rate the solution out of 10");
 
             Rating = (float)Convert.ToDecimal( Console.ReadLine());
-
+           
         }
 
     }

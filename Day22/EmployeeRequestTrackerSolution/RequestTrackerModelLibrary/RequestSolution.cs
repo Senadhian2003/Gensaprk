@@ -55,7 +55,6 @@ namespace RequestTrackerModelLibrary
                 + "--------------------------------"
                 + "\nSolution Id : " + SolutionId
                 + "\nSolution Description " + SolutionDescription
-                + "\nSolved By : " + SolvedByEmployee.Name
                 + "\nSolved Date : " + SolvedDate
                 + "\nComment : " + RequestRaiserComment
                 + "\n"

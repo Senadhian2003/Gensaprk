@@ -1,0 +1,3 @@
+Clinet server
+HTTP Authentication
+Mediatype response(Json, plain text)
