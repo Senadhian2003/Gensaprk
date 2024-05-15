@@ -54,13 +54,13 @@ namespace ClinicAPIApp.Services
             throw new EmptyListException("Doctors");
         }
 
-        public async Task<Doctor> UpdateDoctorSpeciality(int id, string speciality)
+        public async Task<Doctor> UpdateDoctorExperience(int id, int experience)
         {
             Doctor doctor = await _repository.GetByKey(id);
 
             if(doctor != null)
             {
-                doctor.Specialization = speciality;
+                doctor.Experience = experience;
                 await _repository.Update(doctor);
                 return doctor;
             }

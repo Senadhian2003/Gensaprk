@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D141EA3-9F5E-4EAE-9FCF-314ECF43F230}|AbstracionDemo\\AbstracionDemo.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day24\\abstraciondemosolution\\abstraciondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D141EA3-9F5E-4EAE-9FCF-314ECF43F230}|AbstracionDemo\\AbstracionDemo.csproj|solutionrelative:abstraciondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D141EA3-9F5E-4EAE-9FCF-314ECF43F230}|AbstracionDemo\\AbstracionDemo.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day24\\abstraciondemosolution\\abstraciondemo\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D141EA3-9F5E-4EAE-9FCF-314ECF43F230}|AbstracionDemo\\AbstracionDemo.csproj|solutionrelative:abstraciondemo\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D141EA3-9F5E-4EAE-9FCF-314ECF43F230}|AbstracionDemo\\AbstracionDemo.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day24\\abstraciondemosolution\\abstraciondemo\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D141EA3-9F5E-4EAE-9FCF-314ECF43F230}|AbstracionDemo\\AbstracionDemo.csproj|solutionrelative:abstraciondemo\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\AbstracionDemo\\Dog.cs",
+              "RelativeDocumentMoniker": "AbstracionDemo\\Dog.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\AbstracionDemo\\Dog.cs",
+              "RelativeToolTip": "AbstracionDemo\\Dog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:23:58.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\AbstracionDemo\\Animal.cs",
+              "RelativeDocumentMoniker": "AbstracionDemo\\Animal.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\AbstracionDemo\\Animal.cs",
+              "RelativeToolTip": "AbstracionDemo\\Animal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:22:13.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\AbstracionDemo\\Program.cs",
+              "RelativeDocumentMoniker": "AbstracionDemo\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\AbstracionDemoSolution\\AbstracionDemo\\Program.cs",
+              "RelativeToolTip": "AbstracionDemo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:21:48.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

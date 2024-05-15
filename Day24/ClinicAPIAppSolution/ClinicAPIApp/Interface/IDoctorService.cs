@@ -7,7 +7,7 @@ namespace ClinicAPIApp.Interface
 
         Task<int> AddDoctor(Doctor doctor);
 
-        Task<Doctor> UpdateDoctorSpeciality(int id, string speciality);
+        Task<Doctor> UpdateDoctorExperience(int id, int experience);
         
         Task<IList<Doctor>> GetDoctors();
 

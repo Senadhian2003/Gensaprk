@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using RequestTrackerDALLibrary.Interface;
 using RequestTrackerModelLibrary;
+using RequestTrackerModelLibrary.Exceptions;
 
 namespace RequestTrackerDALLibrary.Repositories
 {
@@ -45,13 +47,26 @@ namespace RequestTrackerDALLibrary.Repositories
         public async Task<Employee> GetByKey(int key)
         {
             Employee emp = await _context.Employees.Include(e => e.RequestsRaised).FirstOrDefaultAsync(e => e.Id == key);
-            return emp;
+
+            if(emp != null)
+            {
+                return emp;
+            }
+
+            throw new ElementNotFoundException("Employee");
 
         }
 
         public async Task<List<Employee>> GetAll()
         {
-            return await _context.Employees.ToListAsync();
+            var result = await _context.Employees.ToListAsync();
+
+            if(result.Count >= 0)
+            {
+                return result;
+            }
+            throw new EmptyListException("Employee");
+
         }
 
         public async Task<Employee> Update(Employee entity)

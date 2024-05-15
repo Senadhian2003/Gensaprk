@@ -1,0 +1,15 @@
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\bin\Debug\net6.0\AbstracionDemo.exe
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\bin\Debug\net6.0\AbstracionDemo.deps.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\bin\Debug\net6.0\AbstracionDemo.runtimeconfig.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\bin\Debug\net6.0\AbstracionDemo.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\bin\Debug\net6.0\AbstracionDemo.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.AssemblyInfoInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.AssemblyInfo.cs
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.csproj.CoreCompileInputs.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.sourcelink.json
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\refint\AbstracionDemo.dll
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.pdb
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\AbstracionDemo.genruntimeconfig.cache
+C:\MyPersonalFiles\GensparkTraining\GitHub\Day24\AbstracionDemoSolution\AbstracionDemo\obj\Debug\net6.0\ref\AbstracionDemo.dll

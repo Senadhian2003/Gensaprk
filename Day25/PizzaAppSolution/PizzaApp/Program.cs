@@ -20,15 +20,24 @@ namespace PizzaApp
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            #region Context Injection
             builder.Services.AddDbContext<PizzaAppContext>(
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
                 );
+            #endregion
 
-
+            #region Repository Injections
             builder.Services.AddScoped<IRepository<int,User>, UserRepository>();
             builder.Services.AddScoped<IRepository<int,UserCredential>, UserCredentialRepository>();
+            builder.Services.AddScoped<IRepository<int, Pizza>, PizzaRepository>();
+            #endregion
 
+            #region Service Injections
             builder.Services.AddScoped<IUserAuthService, UserAuthService>();
+            builder.Services.AddScoped<IPizzaService, PizzaService>();
+            #endregion
+
+
 
             var app = builder.Build();
 

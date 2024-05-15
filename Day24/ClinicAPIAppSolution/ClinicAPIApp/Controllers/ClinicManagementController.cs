@@ -14,6 +14,7 @@ namespace ClinicAPIApp.Controllers
             _service = doctorService;
         }
 
+        [Route("GetAllDoctors")]
         [HttpGet]
         public async Task<ActionResult<IList<Doctor>>> GetAllDoctors()
         {
@@ -68,12 +69,13 @@ namespace ClinicAPIApp.Controllers
 
         //}
 
+        [Route("UpdateExperience")]
         [HttpPut]
-        public async Task<ActionResult<Doctor>> UpdateDoctorSpeciality(int docId, string speciality)
+        public async Task<ActionResult<Doctor>> UpdateDoctorExperience(int docId, int experience)
         {
             try
             {
-                Doctor doctor = await _service.UpdateDoctorSpeciality(docId, speciality);
+                Doctor doctor = await _service.UpdateDoctorExperience(docId, experience);
 
                 return doctor;
 
