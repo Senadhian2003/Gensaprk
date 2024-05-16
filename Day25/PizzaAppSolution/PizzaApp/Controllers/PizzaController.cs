@@ -23,7 +23,7 @@ namespace PizzaApp.Controllers
         [HttpPost]
         [ProducesResponseType(typeof(Pizza), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult< IList<Pizza>>> GetPizza(PizzaDTO pizzaDTO)
+        public async Task<ActionResult<IList<Pizza>>> GetPizza(PizzaDTO pizzaDTO)
         {
             try
             {
@@ -31,7 +31,30 @@ namespace PizzaApp.Controllers
                 return Ok(pizzasInStock.ToList());
 
             }
-            catch(EmptyListException ele)
+            catch (EmptyListException ele)
+            {
+
+                return BadRequest(new ErrorModel(501, ele.Message));
+
+            }
+
+
+        }
+
+
+        [Route("/GetPizzaByName")]
+        [HttpGet]
+        [ProducesResponseType(typeof(Pizza), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IList<Pizza>>> GetPizzaByName(string name)
+        {
+            try
+            {
+                var pizzasInStock = await _pizzaService.GetPizzasByName(name);
+                return Ok(pizzasInStock.ToList());
+
+            }
+            catch (EmptyListException ele)
             {
 
                 return BadRequest(new ErrorModel(501, ele.Message));

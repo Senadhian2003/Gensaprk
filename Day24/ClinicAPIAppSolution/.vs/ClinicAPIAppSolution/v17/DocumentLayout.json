@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "ClinicAPIApp\\Controllers\\ClinicManagementController.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day24\\ClinicAPIAppSolution\\ClinicAPIApp\\Controllers\\ClinicManagementController.cs",
               "RelativeToolTip": "ClinicAPIApp\\Controllers\\ClinicManagementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwBAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T19:37:07.127Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "ClinicAPIApp\\Exceptions\\EmptyListException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:31:09.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:31:09.924Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "ClinicAPIApp\\Interface\\IDoctorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:56:58.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T18:56:58.744Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "ClinicAPIApp\\Services\\DoctorServices.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAkwDgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:16:09.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:16:09.119Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "ClinicAPIApp\\Contexts\\ClinicManagementContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:48:35.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:48:35.372Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "ClinicAPIApp\\Exceptions\\ElementNotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:44:03.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:44:03.128Z"
             },
             {
               "$type": "Document",

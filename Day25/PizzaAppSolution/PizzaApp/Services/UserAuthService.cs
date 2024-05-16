@@ -32,9 +32,9 @@ namespace PizzaApp.Services
             if (isPasswordSame)
             {
                 var user = await _userRepo.Get(loginDTO.UserId);
-                if (userDB.Status == "Active")
+                
                     return user;
-                throw new UserNotActiveException("Your account is not activated");
+              
             }
             throw new UnauthorizedUserException("Invalid username or password");
         }
@@ -51,14 +51,14 @@ namespace PizzaApp.Services
             return true;
         }
 
-        public async Task<User> Register(UserRegisterDTO employeeDTO)
+        public async Task<User> Register(UserRegisterDTO userDTO)
         {
             User user = null;
             UserCredential userCredential = null;
             try
             {
-                user = employeeDTO;
-                userCredential = MapEmployeeUserDTOToUser(employeeDTO);
+                user = userDTO;
+                userCredential = MapUserToUserCredential(userDTO);
                 user = await _userRepo.Add(user);
                 userCredential.UserId = user.Id;
                 userCredential = await _userCredentialsRepo.Add(userCredential);
@@ -83,17 +83,19 @@ namespace PizzaApp.Services
             await _userRepo.Delete(user.Id);
         }
 
-        private UserCredential MapEmployeeUserDTOToUser(UserRegisterDTO employeeDTO)
+        private UserCredential MapUserToUserCredential(UserRegisterDTO userDTO)
         {
             UserCredential userCredential = new UserCredential();
-            userCredential.UserId = employeeDTO.Id;
+            userCredential.UserId = userDTO.Id;
             userCredential.Status = "Disabled";
             HMACSHA512 hMACSHA = new HMACSHA512();
             userCredential.PasswordHashKey = hMACSHA.Key;
-            userCredential.Password = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(employeeDTO.Password));
+            userCredential.Password = hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(userDTO.Password));
             return userCredential;
         }
 
+
+       
 
     }
 }
