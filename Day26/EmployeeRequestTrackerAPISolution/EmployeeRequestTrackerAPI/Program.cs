@@ -4,6 +4,7 @@ using EmployeeRequestTrackerAPI.Models;
 using EmployeeRequestTrackerAPI.Repositories;
 using EmployeeRequestTrackerAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -27,6 +28,15 @@ namespace EmployeeRequestTrackerAPI
             builder.Services.AddDbContext<RequestTrackerContext>(
               options => options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
               );
+
+    //        builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    //.AddEntityFrameworkStores<ApplicationDbContext>()
+    //.AddDefaultTokenProviders();
+
+    //        builder.Services.AddIdentity<IdentityUser,IdentityRole>()
+    //.AddRoles<IdentityRole>();
+
+
 
             builder.Services.AddSwaggerGen(option =>
             {
@@ -63,7 +73,8 @@ namespace EmployeeRequestTrackerAPI
                         ValidateIssuer = false,
                         ValidateAudience = false,
                         ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["TokenKey:JWT"]))
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["TokenKey:JWT"])),
+                        RoleClaimType = "Roles"
                     };
 
                 });
