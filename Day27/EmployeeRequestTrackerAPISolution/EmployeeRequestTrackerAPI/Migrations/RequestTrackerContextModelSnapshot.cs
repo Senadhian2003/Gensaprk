@@ -137,9 +137,8 @@ namespace EmployeeRequestTrackerAPI.Migrations
                         .HasForeignKey("RequestClosedBy");
 
                     b.HasOne("EmployeeRequestTrackerAPI.Models.Employee", "RaisedByEmployee")
-                        .WithMany("RequestsRaised")
-                        .HasForeignKey("RequestRaisedBy")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .WithMany()
+                        .HasForeignKey("RequestRaisedBy");
 
                     b.Navigation("RaisedByEmployee");
 
@@ -155,11 +154,6 @@ namespace EmployeeRequestTrackerAPI.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.Employee", b =>
-                {
-                    b.Navigation("RequestsRaised");
                 });
 #pragma warning restore 612, 618
         }

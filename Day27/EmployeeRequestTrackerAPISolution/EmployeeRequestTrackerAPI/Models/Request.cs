@@ -15,13 +15,16 @@ namespace EmployeeRequestTrackerAPI.Models
 
 
         public int? RequestRaisedBy { get; set; }
-
+        [ForeignKey("RequestRaisedBy")]
         public Employee RaisedByEmployee { get; set; }
 
         public int? RequestClosedBy { get; set; }
 
         [ForeignKey("RequestClosedBy")]
         public Employee RequestClosedByEmployee { get; set; }
+
+
+        
 
         public void BuildRequestFromConsole()
         {

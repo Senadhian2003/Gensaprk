@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeRequestTrackerAPI.Migrations
 {
     [DbContext(typeof(RequestTrackerContext))]
-    [Migration("20240516105052_third")]
-    partial class third
+    [Migration("20240519174215_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -73,6 +73,43 @@ namespace EmployeeRequestTrackerAPI.Migrations
                         });
                 });
 
+            modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.Request", b =>
+                {
+                    b.Property<int>("RequestNumber")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RequestNumber"), 1L, 1);
+
+                    b.Property<DateTime?>("ClosedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("RequestClosedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RequestMessage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("RequestRaisedBy")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RequestStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RequestNumber");
+
+                    b.HasIndex("RequestClosedBy");
+
+                    b.HasIndex("RequestRaisedBy");
+
+                    b.ToTable("Requests");
+                });
+
             modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.User", b =>
                 {
                     b.Property<int>("EmployeeId")
@@ -93,6 +130,21 @@ namespace EmployeeRequestTrackerAPI.Migrations
                     b.HasKey("EmployeeId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.Request", b =>
+                {
+                    b.HasOne("EmployeeRequestTrackerAPI.Models.Employee", "RequestClosedByEmployee")
+                        .WithMany()
+                        .HasForeignKey("RequestClosedBy");
+
+                    b.HasOne("EmployeeRequestTrackerAPI.Models.Employee", "RaisedByEmployee")
+                        .WithMany()
+                        .HasForeignKey("RequestRaisedBy");
+
+                    b.Navigation("RaisedByEmployee");
+
+                    b.Navigation("RequestClosedByEmployee");
                 });
 
             modelBuilder.Entity("EmployeeRequestTrackerAPI.Models.User", b =>

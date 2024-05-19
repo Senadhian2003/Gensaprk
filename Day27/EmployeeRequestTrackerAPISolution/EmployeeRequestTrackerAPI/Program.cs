@@ -81,7 +81,7 @@ namespace EmployeeRequestTrackerAPI
 
             builder.Services.AddScoped<IRepository<int, Employee>, EmployeeRepository>();
             builder.Services.AddScoped<IRepository<int,User>, UserRepository>();
-            builder.Services.AddScoped<IEmployeeService, EmployeeBasicService>();
+            builder.Services.AddScoped<IAdminService, AdminBasicServices>();
             builder.Services.AddScoped<IRepository<int,Request>, RequestRepository>();
 
             builder.Services.AddScoped<IRequestService, RequestService>();

@@ -1,4 +1,5 @@
 ﻿using EmployeeRequestTrackerAPI.Interfaces;
+using EmployeeRequestTrackerAPI.Models;
 using EmployeeRequestTrackerAPI.Models.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,58 @@ namespace EmployeeRequestTrackerAPI.Controllers
                 int requestNumber = await _requestService.RaiseRequest(requestDTO.employeeId, requestDTO.requestMessage);
 
                 return Ok(requestNumber);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+
+        [HttpPost]
+        [Route("/CloseRequest")]
+        public async Task<ActionResult<Request>> CloseRequest(CloseRequestDTO requestDTO)
+        {
+            try
+            {
+                Request request = await _requestService.CloseRequest(requestDTO.EmployeeId, requestDTO.RequestId);
+
+                return Ok(request);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("/ViewAllRequests")]
+        public async Task<ActionResult<List<Request>>> GetAllRequests()
+        {
+            try
+            {
+                List<Request> requests = await _requestService.ViewAllRequest();
+
+                return Ok(requests);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("/ViewMyRequests")]
+        public async Task<ActionResult<List<Request>>> GetMyRequests(int employeeId)
+        {
+            try
+            {
+                List<Request> requests = await _requestService.ViewMyRequest(employeeId);
+
+                return Ok(requests);
             }
             catch (Exception ex)
             {

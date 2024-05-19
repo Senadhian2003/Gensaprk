@@ -9,7 +9,7 @@
         public string Image { get; set; }
         public string? Role { get; set; }
 
-        public List<Request> RequestsRaised { get; set; }
+       
 
     }
 }

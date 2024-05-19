@@ -12,9 +12,9 @@ namespace EmployeeRequestTrackerAPI.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private readonly IEmployeeService _employeeService;
+        private readonly IAdminService _employeeService;
 
-        public EmployeeController(IEmployeeService employeeService)
+        public EmployeeController(IAdminService employeeService)
         {
             _employeeService = employeeService;
         }

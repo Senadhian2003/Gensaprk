@@ -1,13 +1,14 @@
 ﻿using EmployeeRequestTrackerAPI.Interfaces;
 using EmployeeRequestTrackerAPI.Models;
 using EmployeeRequestTrackerAPI.Exceptions;
+
 namespace EmployeeRequestTrackerAPI.Services
 {
-    public class EmployeeBasicService : IEmployeeService
+    public class AdminBasicServices : IAdminService
     {
         private readonly IRepository<int, Employee> _employeeRepository;
         private readonly IRepository<int, User> _userRepository;
-        public EmployeeBasicService(IRepository<int, Employee> employeeRepository, IRepository<int, User> userRepository)
+        public AdminBasicServices(IRepository<int, Employee> employeeRepository, IRepository<int, User> userRepository)
         {
             _employeeRepository = employeeRepository;
             _userRepository = userRepository;
@@ -58,6 +59,6 @@ namespace EmployeeRequestTrackerAPI.Services
 
         }
 
-
+       
     }
 }

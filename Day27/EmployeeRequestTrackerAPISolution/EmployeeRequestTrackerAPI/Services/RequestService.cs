@@ -24,5 +24,48 @@ namespace EmployeeRequestTrackerAPI.Services
 
             throw new NotImplementedException();
         }
+
+        public async Task<Request> CloseRequest(int employeeId, int requestId)
+        {
+            Employee employee = await _employeeRepository.Get(employeeId);
+
+            Request request = await _requestRepository.Get(requestId);
+            request.RequestClosedBy = employee.Id;
+            request.RequestStatus = "Closed";
+            request.ClosedDate = DateTime.Now;
+            await _requestRepository.Update(request);
+
+            return request;
+
+            
+        }
+
+        public async Task<List<Request>> ViewAllRequest()
+        {
+            var requests = await _requestRepository.Get();
+
+           var result = requests.Where(r => r.RequestStatus == "Ticket Raised").OrderBy(r=>r.RequestDate);
+
+            if (result.Any())
+            {
+                return result.ToList();
+            }
+
+            throw new NotImplementedException();
+        }
+
+        public async Task<List<Request>> ViewMyRequest(int employeeId)
+        {
+            var requests = await _requestRepository.Get();
+
+            var result = requests.Where(r => r.RequestRaisedBy == employeeId).OrderBy(r => r.RequestDate);
+
+            if (result.Any())
+            {
+                return result.ToList();
+            }
+
+            throw new NotImplementedException();
+        }
     }
 }
