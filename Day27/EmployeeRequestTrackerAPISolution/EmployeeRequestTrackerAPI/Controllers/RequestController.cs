@@ -1,6 +1,8 @@
-﻿using EmployeeRequestTrackerAPI.Interfaces;
+﻿using EmployeeRequestTrackerAPI.Exceptions;
+using EmployeeRequestTrackerAPI.Interfaces;
 using EmployeeRequestTrackerAPI.Models;
 using EmployeeRequestTrackerAPI.Models.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,6 +20,9 @@ namespace EmployeeRequestTrackerAPI.Controllers
 
 
         [HttpPost]
+        [Route("RaiseRequest")]
+        [ProducesResponseType(typeof(int), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<int>> RaiseRequest(RequestRaiseDTO requestDTO)
         {
             try
@@ -28,12 +33,15 @@ namespace EmployeeRequestTrackerAPI.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return  NotFound(new ErrorModel(401, ex.Message));
             }
 
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [ProducesResponseType(typeof(Request), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status404NotFound)]
         [Route("/CloseRequest")]
         public async Task<ActionResult<Request>> CloseRequest(CloseRequestDTO requestDTO)
         {
@@ -43,14 +51,17 @@ namespace EmployeeRequestTrackerAPI.Controllers
 
                 return Ok(request);
             }
-            catch (Exception ex)
+            catch (ElementNotFoundException enfe)
             {
-                return BadRequest(ex.Message);
+                return NotFound(new ErrorModel(401, enfe.Message));
             }
 
         }
 
         [HttpGet]
+        
+        [ProducesResponseType(typeof(IList<Request>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status404NotFound)]
         [Route("/ViewAllRequests")]
         public async Task<ActionResult<List<Request>>> GetAllRequests()
         {
@@ -60,15 +71,17 @@ namespace EmployeeRequestTrackerAPI.Controllers
 
                 return Ok(requests);
             }
-            catch (Exception ex)
+            catch (EmptyListException ele)
             {
-                return BadRequest(ex.Message);
+                return NotFound(new ErrorModel(401, ele.Message));
             }
 
         }
 
 
         [HttpGet]
+        [ProducesResponseType(typeof(IList<Request>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status404NotFound)]
         [Route("/ViewMyRequests")]
         public async Task<ActionResult<List<Request>>> GetMyRequests(int employeeId)
         {
@@ -80,7 +93,7 @@ namespace EmployeeRequestTrackerAPI.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return NotFound(new ErrorModel(401, ex.Message));
             }
 
         }

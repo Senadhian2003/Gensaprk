@@ -20,9 +20,8 @@ namespace EmployeeRequestTrackerAPI.Controllers
         }
 
         //get
-        
-        [HttpGet]
         [Authorize(Roles = "Admin")]
+        [HttpGet]
         [ProducesResponseType(typeof(IList<Employee>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status404NotFound)]
         [ProducesErrorResponseType(typeof(ErrorModel))]

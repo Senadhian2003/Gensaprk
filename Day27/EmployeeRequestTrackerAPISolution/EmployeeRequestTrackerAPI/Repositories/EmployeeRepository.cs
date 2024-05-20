@@ -35,7 +35,13 @@ namespace EmployeeRequestTrackerAPI.Repositories
         public Task<Employee> Get(int key)
         {
             var employee = _context.Employees.FirstOrDefaultAsync(e => e.Id == key);
-            return employee;
+
+            if (employee != null)
+            {
+                return employee;
+            }
+
+            throw new ElementNotFoundException("Employee");
         }
 
         public async Task<IEnumerable<Employee>> Get()

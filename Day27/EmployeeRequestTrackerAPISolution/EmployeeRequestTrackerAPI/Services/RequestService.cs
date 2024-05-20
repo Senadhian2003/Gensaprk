@@ -1,4 +1,5 @@
-﻿using EmployeeRequestTrackerAPI.Interfaces;
+﻿using EmployeeRequestTrackerAPI.Exceptions;
+using EmployeeRequestTrackerAPI.Interfaces;
 using EmployeeRequestTrackerAPI.Models;
 
 namespace EmployeeRequestTrackerAPI.Services
@@ -51,11 +52,12 @@ namespace EmployeeRequestTrackerAPI.Services
                 return result.ToList();
             }
 
-            throw new NotImplementedException();
+            throw new EmptyListException("Request");
         }
 
         public async Task<List<Request>> ViewMyRequest(int employeeId)
         {
+            Employee employee = await _employeeRepository.Get(employeeId);
             var requests = await _requestRepository.Get();
 
             var result = requests.Where(r => r.RequestRaisedBy == employeeId).OrderBy(r => r.RequestDate);
@@ -65,7 +67,7 @@ namespace EmployeeRequestTrackerAPI.Services
                 return result.ToList();
             }
 
-            throw new NotImplementedException();
+            throw new EmptyListException("Request");
         }
     }
 }
