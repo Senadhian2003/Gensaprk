@@ -22,6 +22,22 @@ namespace LinqApp
             var bookCount = context.Titles.Where(t => t.Type == type).Count();
             Console.WriteLine($"There are {bookCount} in the type {type}");
         }
+
+        void PrintNumberOfBooksFromEachType()
+        {
+            pubsContext context = new pubsContext();
+            var groupedTitles = context.Titles.GroupBy(t => t.PubId)
+                                 .Select(g => new { PubId = g.Key, Count = g.Count() })
+                                 .ToList();
+
+            foreach (var item in groupedTitles)
+            {
+                Console.WriteLine($"PubId: {item.PubId}, Count: {item.Count}");
+            }
+
+
+        }
+
         void PrintAuthorNames()
         {
             pubsContext context = new pubsContext();
@@ -37,7 +53,10 @@ namespace LinqApp
             Program program = new Program();
             //program.PrintAuthorNames();
             //program.PrintNumberOfBooksFromType("mod_cook");
-            program.PrintTheBooksPulisherwise();
+            //program.PrintTheBooksPulisherwise();
+
+            program.PrintNumberOfBooksFromEachType();
+
         }
     }
 }

@@ -74,7 +74,7 @@ namespace EmployeeRequestTrackerAPI
                         ValidateAudience = false,
                         ValidateIssuerSigningKey = true,
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["TokenKey:JWT"])),
-                        RoleClaimType = "Roles"
+                     
                     };
 
                 });

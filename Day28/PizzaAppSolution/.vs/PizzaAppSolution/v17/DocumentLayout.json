@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\pizzaappsolution\\pizzaapp\\log4.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|solutionrelative:pizzaapp\\log4.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\pizzaappsolution\\pizzaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|solutionrelative:pizzaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\pizzaappsolution\\pizzaapp\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|solutionrelative:pizzaapp\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\pizzaappsolution\\pizzaapp\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6747870A-2B11-46C6-8AEB-353D5BD4F841}|PizzaApp\\PizzaApp.csproj|solutionrelative:pizzaapp\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PizzaController.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Controllers\\PizzaController.cs",
+              "RelativeDocumentMoniker": "PizzaApp\\Controllers\\PizzaController.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Controllers\\PizzaController.cs",
+              "RelativeToolTip": "PizzaApp\\Controllers\\PizzaController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:34:04.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Program.cs",
+              "RelativeDocumentMoniker": "PizzaApp\\Program.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Program.cs",
+              "RelativeToolTip": "PizzaApp\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:32:19.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Log4.Config",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Log4.Config",
+              "RelativeDocumentMoniker": "PizzaApp\\Log4.Config",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Log4.Config",
+              "RelativeToolTip": "PizzaApp\\Log4.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-20T17:31:17.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAuthController.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Controllers\\UserAuthController.cs",
+              "RelativeDocumentMoniker": "PizzaApp\\Controllers\\UserAuthController.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Controllers\\UserAuthController.cs",
+              "RelativeToolTip": "PizzaApp\\Controllers\\UserAuthController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:54:46.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

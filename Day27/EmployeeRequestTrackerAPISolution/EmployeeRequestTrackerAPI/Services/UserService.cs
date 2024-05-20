@@ -32,10 +32,10 @@ namespace EmployeeRequestTrackerAPI.Services
             {
                 var employee = await _employeeRepo.Get(loginDTO.UserId);
                 //if (userDB.Status == "Active")
-                //    return employee;
+                //throw new UserNotActiveException("Your account is not activated");
                 LoginReturnDTO loginReturnDTO = MapEmployeeToLoginReturnDTO(employee);
                 return loginReturnDTO;
-                //throw new UserNotActiveException("Your account is not activated");
+                
             }
             throw new UnauthorizedUserException("Invalid username or password");
         }
