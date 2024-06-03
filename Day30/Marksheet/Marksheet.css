@@ -1,0 +1,62 @@
+body{
+    
+}
+
+.CertificateBorder{
+
+    width: 900px;
+    
+    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    border: 2px solid black;
+    
+
+}
+
+/* table, th, tr, th{
+    border: 1px solid ,black;
+    } */
+
+
+    table thead tr.bordered{
+        background-color: red;
+        color: white;
+    }
+
+  
+
+    table thead tr{
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+
+    thead tr.bordered th {
+        border: 2px solid black;
+    }
+
+    tbody tr.bordered td {
+        border: 2px solid black;
+    }
+    
+    tbody tr td {
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+    
+    tbody tr td {
+        border-bottom: none;
+    }
+
+    thead tr{
+        border: 2px solid black;
+    }
+    
+    
+    
+
+
+
+    
