@@ -1,0 +1,18 @@
+.Employees{
+    position: relative;
+}
+
+.Employee{
+    float: left;
+    padding: 2%;
+    margin: 1%;
+    border: 2px solid black;
+}
+
+input{
+    margin: 5px;
+}
+
+label{
+    margin: 5px;
+}

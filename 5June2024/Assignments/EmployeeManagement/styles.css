@@ -1,0 +1,33 @@
+/* .Employees{
+    position: relative;
+} */
+
+.Employee-card{
+   width: 400px;
+    padding: 10px;
+    margin: 1%;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    margin: 5px;
+}
+
+label{
+    margin: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.flex-row{
+    flex: 100%;
+}
+
+.flex-card{
+    flex: 50%;
+}
