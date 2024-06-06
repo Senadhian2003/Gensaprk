@@ -3,7 +3,7 @@
 } */
 
 .Employee-card{
-   width: 400px;
+   width: 300px;
     padding: 10px;
     margin: 1%;
     border: 2px solid black;
@@ -24,10 +24,7 @@ label{
    
 }
 
-.flex-row{
-    flex: 100%;
-}
 
 .flex-card{
-    flex: 50%;
+    flex: 33%;
 }
