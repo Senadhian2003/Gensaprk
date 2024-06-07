@@ -1,0 +1,36 @@
+body{
+
+    background-image: url('./Assets/Images/Background.png');
+    background-position: top right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    margin-left: 4%;
+   
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+.open-sans-extraBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .open-sans-semiBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
