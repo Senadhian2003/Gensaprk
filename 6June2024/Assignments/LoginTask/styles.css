@@ -54,7 +54,7 @@ button{
     font-weight: 550;
     color: #2148C0;
     border: none;
-    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.2); /* Add this line */
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.2); 
     border-radius: 5px;
    
 }
