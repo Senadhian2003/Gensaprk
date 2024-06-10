@@ -54,7 +54,16 @@ table thead {
     background-color: white!important;
 }
 
-
+tfoot{
+    background-color: #F4F7FC;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #687182;;;
+    font-size: 14px;
+}
 
 /* 
 .table-striped>tbody>tr:nth-of-type(odd) {
@@ -86,7 +95,7 @@ input {
 .img1{
     background-image: url('./Assets/Images/Search.png');
     padding-left: 40px;
-    width: 375px!important;
+    width: 30.02vw!important;
 }
 
 button{

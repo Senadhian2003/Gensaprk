@@ -34,3 +34,29 @@ body{
       "wdth" 100;
   }
 
+
+  /* Min-width 769px and max-width 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  img{
+    width: 190px ;
+    height: 330px;
+   }
+}
+
+
+  /* Min-width 577px and max-width 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+  img{
+    width: 130px ;
+    height: 200px;
+   }
+}
+
+
+  /* Max-width 576px */
+@media (max-width: 576px) {
+ img{
+  width: 150px ;
+  height: 200px;
+ }
+}
