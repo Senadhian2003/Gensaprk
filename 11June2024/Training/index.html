@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+           
+           var num1=10;
+           var greet=()=>alert("Hello");
+           var understandingVariables=()=>{
+            var num1 = 200;
+            window.num1 =300;//the global variable
+            console.log("The value of num1 in UnderstandingValriables "+num1);
+           }
+           var anotherMethod=()=>{
+              understandingVariables();
+              console.log(num1);
+           }
+        </script>
+    </head>
+    <body> 
+        <h1>Hello from JS</h1>
+        <button onclick="anotherMethod()">Click to call</button>
+    </body>
+</html>
