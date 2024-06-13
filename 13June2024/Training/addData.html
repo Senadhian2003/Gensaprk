@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .border{
+            height: 250px;
+            width: 400px;
+            margin: 25px auto 0 auto;
+            padding: 3%;
+            border: 1px solid black;
+        }
+
+        label{
+            padding: 8px;
+            margin: 4px;
+        }
+
+        input{
+            padding: 3px;
+            margin: 4px;
+        }
+
+        .center-align{
+            text-align: center;
+        }
+
+
+    </style>
+    <script>
+        
+           
+    </script>
+</head>
+<body>
+    <h1>Product Data</h1>
+    <div>
+       
+    </div>
+    <table id="table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Product 1</td>
+            <td>$10.00</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Product 2</td>
+            <td>$15.00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Product 3</td>
+            <td>$20.00</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <div class="border" >
+        
+        <form action="" id="add-product-form">
+
+            <div class="center-align">
+                <label for=""> Name</label>
+                <input id="product-name" type="text" onblur="validateName()" required>
+                <p id="name-validation" ></p>
+            </div>
+            
+            
+            
+            <br>
+    
+            <div class="center-align"> <label for="">Amount</label>
+                <input id="product-amount" onblur="validatenamount()" min="0" type="number"></div>
+                <p id="amount-validation"></p>
+            <br>
+    
+            <div class="center-align">
+                <label for="">Quantity</label>
+                <input id="product-quantity" onblur="validatequantity()" min="0" type="number">
+                <p id="quantity-validation"></p>
+            </div>
+          
+            <div class="center-align">
+                <button type="button" onclick="addProduct()" >
+                    Add Product
+                </button>
+            </div>
+    
+    
+        </div>
+
+            
+        </form>
+        
+    
+
+    <script>
+
+let validatequantity=(e)=>{
+
+const number = document.getElementById("product-quantity").value;
+const amountpara = document.querySelector("#quantity-validation");
+
+if(!number){
+    amountpara.innerHTML = "The value cannot be empty"
+    amountpara.style.color = "red";
+}
+else if(number<=0){
+    amountpara.innerHTML = "The value cannot be negative or zero"
+    amountpara.style.color = "red";
+}
+else{
+    amountpara.innerHTML = "Accepted"
+    amountpara.style.color = "green";
+}
+
+
+}
+
+        let validatenamount=(e)=>{
+
+            const number = document.getElementById("product-amount").value;
+            const amountpara = document.querySelector("#amount-validation");
+
+            if(!number){
+                amountpara.innerHTML = "The value cannot be empty"
+                amountpara.style.color = "red";
+            }
+            else if(number<=0){
+                amountpara.innerHTML = "The value cannot be negative or zero"
+                amountpara.style.color = "red";
+            }
+            else{
+                amountpara.innerHTML = "Accepted"
+                amountpara.style.color = "green";
+            }
+
+
+        }
+
+
+        let validateName = () =>{
+
+
+            const name = document.querySelector("#product-name").value;
+            const validationMessage = document.querySelector("#name-validation");
+            const containsNumbers = /\d/; 
+            if (!name) {
+                validationMessage.textContent = "Name cannot be empty";
+                validationMessage.style.color = "red";
+            } else if (name.length < 3) {
+                validationMessage.textContent = "Name cannot be less than 3";
+                validationMessage.style.color = "red";
+            }else if (containsNumbers.test(name)) {
+        validationMessage.textContent = "Name cannot contain numbers";
+        validationMessage.style.color = "red";
+    } else {
+                validationMessage.textContent = "Accepted";
+                validationMessage.style.color = "green";
+            }
+           
+
+
+
+        }
+
+        let addProduct = ()=>{
+
+            
+            const name = document.querySelector("#product-name").value;
+            const amount = document.querySelector("#product-amount").value;
+            const quantity = document.querySelector("#product-quantity").value;
+
+            console.log(name, amount, quantity);
+
+            if(!name || !amount || !quantity){
+                alert("Please enter all the details in order to add new product");
+                return
+            }
+
+           
+
+
+
+            let countOfItems = document.querySelectorAll("tr");
+
+            let row = document.createElement('tr');
+
+            let cell1 = document.createElement('td');
+            cell1.innerHTML = countOfItems.length;
+            row.appendChild(cell1);
+
+
+            let cell2 = document.createElement('td');
+            cell2.innerHTML = name;
+            row.appendChild(cell2)
+
+            let cell3 = document.createElement('td');
+            cell3.innerHTML = "$" + parseFloat(amount) ;
+            row.appendChild(cell3)
+
+            let cell4 = document.createElement('td');
+            cell4.innerHTML = quantity;
+            row.appendChild(cell4)
+
+            let table = document.querySelector("#table");
+
+            table.appendChild(row);
+
+            document.getElementById("add-product-form").reset();
+            
+
+        }
+        
+
+    </script>
+
+
+</body>
+</html>
