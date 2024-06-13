@@ -11,7 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./Assets/css/sidebar.css" />
+    <link rel="stylesheet" href="../../Assets/css/sidebar.css" />
   </head>
   <body>
     <div class="wrapper d-flex">
@@ -22,7 +22,7 @@
             <img
               height="55px"
               width="55px"
-              src="./Assets/Images/Athena.avif"
+              src="../../Assets/Images/Athena.avif"
               alt=""
             />
           </button>
@@ -35,41 +35,35 @@
 
         <ul class="sidebar-nav poppins-medium">
           <li class="sidebar-item">
-            <a href="" class="sidebar-link active"
+            <a href="./ReturnPending.html" class="sidebar-link active"
               ><i class="lni lni-dashboard"></i>
               <span>Dashboard</span>
             </a>
           </li>
 
           <li class="sidebar-item">
-            <a href="" class="sidebar-link"
+            <a href="./Customer.html" class="sidebar-link"
               ><i class="lni lni-users"></i>
               <span>Customers</span>
             </a>
           </li>
 
           <li class="sidebar-item">
-            <a href="" class="sidebar-link"
+            <a href="./Book.html" class="sidebar-link"
               ><i class="lni lni-book"></i>
               <span>Books</span>
             </a>
           </li>
 
           <li class="sidebar-item">
-            <a href="" class="sidebar-link">
+            <a href="./CirculationDesk.html" class="sidebar-link">
               <i class="lni lni-cloud-sync"></i> <span>Circulation</span></a
             >
           </li>
 
           <li class="sidebar-item">
-            <a href="" class="sidebar-link"
-              ><i class="lni lni-layers"></i> <span>Rent Status</span>
-            </a>
-          </li>
-
-          <li class="sidebar-item">
-            <a href="" class="sidebar-link"
-              ><i class="lni lni-support"></i> <span>Fine Status</span>
+            <a href="./Purchase.html" class="sidebar-link"
+              ><i class="lni lni-support"></i> <span>Purchase History</span>
             </a>
           </li>
         </ul>
@@ -92,7 +86,7 @@
                     <img
                       height="17px"
                       width="17px"
-                      src="./Assets/Images/book.png"
+                      src="../../Assets/Images/book.png"
                       alt=""
                     />
                   </div>
@@ -109,7 +103,7 @@
                     <img
                       height="17px"
                       width="17px"
-                      src="./Assets/Images/user.png"
+                      src="../../Assets/Images/user.png"
                       alt=""
                     />
                   </div>
@@ -125,7 +119,7 @@
                     <img
                       height="17px"
                       width="17px"
-                      src="./Assets/Images/book.png"
+                      src="../../Assets/Images/book.png"
                       alt=""
                     />
                   </div>
@@ -141,7 +135,7 @@
                     <img
                       height="17px"
                       width="17px"
-                      src="./Assets/Images/money.png"
+                      src="../../Assets/Images/money.png"
                       alt=""
                     />
                   </div>
@@ -161,22 +155,36 @@
                   class="nav-table d-flex justify-content-between align-items-center p-3 poppins-medium"
                 >
                   <div class="nav-items">
-                    <a href="#" class="p-2 nav-link active">Rent</a>
-                    <a href="#" class="p-2 nav-link">Fine</a>
+                    <a href="./ReturnPending.html" class="p-2 nav-link active"
+                      >Rent</a
+                    >
+                    <a href="./FinePending.html" class="p-2 nav-link">Fine</a>
                   </div>
-                  <input
-                    type="text"
-                    class="form-control img1"
-                    placeholder="Search..."
-                    aria-label="Username"
-                    aria-describedby="basic-addon1"
-                  />
+                  <div class="nav-items">
+                    <div style="margin-top: 7px">
+                      <div class="form-check form-switch">
+                        <input
+                          class="form-check-input switch"
+                          type="checkbox"
+                          id="flexSwitchCheckDefault"
+                        />
+                      </div>
+                    </div>
+
+                    <input
+                      type="text"
+                      class="form-control input-text"
+                      placeholder="Search..."
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
                 </div>
 
                 <div class="container-fluid">
                   <table
-                  id="table-detail"
-                    class="table table-hover poppins-medium"
+                    id="table-detail"
+                    class="table poppins-medium"
                     style="font-size: 14px"
                   >
                     <thead>
@@ -191,7 +199,13 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr  data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">
+                      <tr
+                        class="hover-bg"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse1"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
                         <td>1</td>
 
                         <td>Spiderman</td>
@@ -203,28 +217,37 @@
                       </tr>
                       <tr>
                         <td colspan="7" class="p-0">
-                          <div id="collapse1" class="collapse" data-bs-parent="#table-detail" >
-                            <table class="table table-hover poppins-medium Detail mb-0" style="font-size: 14px">
+                          <div
+                            id="collapse1"
+                            class="collapse"
+                            data-bs-parent="#table-detail"
+                          >
+                            <table
+                              class="table poppins-medium Detail mb-0"
+                              style="font-size: 14px"
+                            >
                               <thead>
                                 <tr>
-                                  <th scope="col">Book ID</th>
-                                  <th scope="col">Price</th>
-                                  <th scope="col">Return Date</th>
-                                  <th scope="col">Status</th>
+                                  <td scope="col">Book ID</td>
+                                  <td scope="col">Price</td>
+                                  <td class="text-center" scope="col">
+                                    Return Date
+                                  </td>
+                                  <td scope="col">Status</td>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>13-06-2024</td>
-                                  <td>Returned</td>
+                                  <td class="text-center">13-06-2024</td>
+                                  <td><p class="success">Returned</p></td>
                                 </tr>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>-</td>
-                                  <td>Return Pending</td>
+                                  <td class="text-center">-</td>
+                                  <td><p class="danger">Pending</p></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -232,7 +255,13 @@
                         </td>
                       </tr>
 
-                      <tr  data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseOne">
+                      <tr
+                        class="hover-bg"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse2"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
                         <td>1</td>
 
                         <td>Spiderman</td>
@@ -244,28 +273,37 @@
                       </tr>
                       <tr>
                         <td colspan="7" class="p-0">
-                          <div id="collapse2" class="collapse" data-bs-parent="#table-detail">
-                            <table class="table table-hover poppins-medium Detail mb-0" style="font-size: 14px">
+                          <div
+                            id="collapse2"
+                            class="collapse"
+                            data-bs-parent="#table-detail"
+                          >
+                            <table
+                              class="table poppins-medium Detail mb-0"
+                              style="font-size: 14px"
+                            >
                               <thead>
                                 <tr>
-                                  <th scope="col">Book ID</th>
-                                  <th scope="col">Price</th>
-                                  <th scope="col">Return Date</th>
-                                  <th scope="col">Status</th>
+                                  <td scope="col">Book ID</td>
+                                  <td scope="col">Price</td>
+                                  <td class="text-center" scope="col">
+                                    Return Date
+                                  </td>
+                                  <td scope="col">Status</td>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>13-06-2024</td>
-                                  <td>Returned</td>
+                                  <td class="text-center">13-06-2024</td>
+                                  <td><p class="success">Returned</p></td>
                                 </tr>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>-</td>
-                                  <td>Return Pending</td>
+                                  <td class="text-center">-</td>
+                                  <td><p class="danger">Pending</p></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -273,7 +311,13 @@
                         </td>
                       </tr>
 
-                      <tr  data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseOne">
+                      <tr
+                        class="hover-bg"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse3"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
                         <td>1</td>
 
                         <td>Spiderman</td>
@@ -285,28 +329,37 @@
                       </tr>
                       <tr>
                         <td colspan="7" class="p-0">
-                          <div id="collapse3" class="collapse" data-bs-parent="#table-detail">
-                            <table class="table table-hover poppins-medium Detail mb-0" style="font-size: 14px">
+                          <div
+                            id="collapse3"
+                            class="collapse"
+                            data-bs-parent="#table-detail"
+                          >
+                            <table
+                              class="table poppins-medium Detail mb-0"
+                              style="font-size: 14px"
+                            >
                               <thead>
                                 <tr>
-                                  <th scope="col">Book ID</th>
-                                  <th scope="col">Price</th>
-                                  <th scope="col">Return Date</th>
-                                  <th scope="col">Status</th>
+                                  <td scope="col">Book ID</td>
+                                  <td scope="col">Price</td>
+                                  <td class="text-center" scope="col">
+                                    Return Date
+                                  </td>
+                                  <td scope="col">Status</td>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>13-06-2024</td>
-                                  <td>Returned</td>
+                                  <td class="text-center">13-06-2024</td>
+                                  <td><p class="success">Returned</p></td>
                                 </tr>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>-</td>
-                                  <td>Return Pending</td>
+                                  <td class="text-center">-</td>
+                                  <td><p class="danger">Pending</p></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -314,7 +367,13 @@
                         </td>
                       </tr>
 
-                      <tr  data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseOne">
+                      <tr
+                        class="hover-bg"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse4"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
                         <td>1</td>
 
                         <td>Spiderman</td>
@@ -326,37 +385,43 @@
                       </tr>
                       <tr>
                         <td colspan="7" class="p-0">
-                          <div id="collapse4" class="collapse" data-bs-parent="#table-detail">
-                            <table class="table poppins-medium Detail mb-0" style="font-size: 14px">
+                          <div
+                            id="collapse4"
+                            class="collapse"
+                            data-bs-parent="#table-detail"
+                          >
+                            <table
+                              class="table poppins-medium Detail mb-0"
+                              style="font-size: 14px"
+                            >
                               <thead>
                                 <tr>
-                                  <th scope="col">Book ID</th>
-                                  <th scope="col">Price</th>
-                                  <th scope="col">Return Date</th>
-                                  <th scope="col">Status</th>
+                                  <td scope="col">Book ID</td>
+                                  <td scope="col">Price</td>
+                                  <td class="text-center" scope="col">
+                                    Return Date
+                                  </td>
+                                  <td scope="col">Status</td>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>13-06-2024</td>
-                                  <td>Returned</td>
+                                  <td class="text-center">13-06-2024</td>
+                                  <td><p class="success">Returned</p></td>
                                 </tr>
                                 <tr>
                                   <td>01</td>
                                   <td>60</td>
-                                  <td>-</td>
-                                  <td>Return Pending</td>
+                                  <td class="text-center">-</td>
+                                  <td><p class="danger">Pending</p></td>
                                 </tr>
                               </tbody>
                             </table>
                           </div>
                         </td>
                       </tr>
-                      
-
-                      
                     </tbody>
 
                     <tfoot>
@@ -383,8 +448,6 @@
                       </tr>
                     </tfoot>
                   </table>
-
-                  
                 </div>
               </div>
             </div>
@@ -398,6 +461,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./Assets/javascript/sidebar.js"></script>
+    <script src="../../Assets/javascript/sidebar.js"></script>
   </body>
 </html>

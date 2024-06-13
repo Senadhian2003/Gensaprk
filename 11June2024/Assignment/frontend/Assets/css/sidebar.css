@@ -73,8 +73,8 @@ body {
 }
 
 #sidebar {
-  width: 70px;
-  min-width: 70px;
+  width: 80px;
+  min-width: 80px;
   z-index: 1000;
   height: 100vh;
   transition: all 0.25s ease-in-out;
@@ -82,6 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 #sidebar.expand {
@@ -192,7 +193,7 @@ a.sidebar-link:not(.active) :hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 10px;
 }
-.dashboard-main input {
+.dashboard-main .input-text {
   font-size: 12px;
   font-size: max(16px, 1em);
   font-family: "Poppins", sans-serif;
@@ -219,6 +220,9 @@ a.sidebar-link:not(.active) :hover {
 .dashboard-main .nav-items a.active {
   color: #16C098;
 }
+.dashboard-main .nav-items input.switch {
+  background-color: #5932EA;
+}
 .dashboard-main table thead td {
   color: #B5B7C0;
 }
@@ -228,6 +232,9 @@ a.sidebar-link:not(.active) :hover {
 }
 .dashboard-main table tbody tr:last-child td {
   border-bottom: none;
+}
+.dashboard-main table tbody .hover-bg:hover td {
+  background-color: #f5f5f5;
 }
 .dashboard-main table tfoot td {
   border-bottom: none;
@@ -254,6 +261,26 @@ a.sidebar-link:not(.active) :hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.danger {
+  background-color: #FAF0F3;
+  color: #D12953;
+  text-align: center;
+  border-radius: 8px;
+  padding: 0.5%;
+  font-size: 12px;
+  width: 70px;
+}
+
+.success {
+  background-color: #E1FCEF;
+  color: #14804A;
+  text-align: center;
+  border-radius: 8px;
+  padding: 0.5%;
+  font-size: 12px;
+  width: 70px;
 }
 
 /*# sourceMappingURL=sidebar.css.map */
