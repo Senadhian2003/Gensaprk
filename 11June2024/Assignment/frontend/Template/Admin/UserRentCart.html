@@ -76,75 +76,7 @@
           </div>
 
           <div class="dashboard-header">
-            <div
-              class="row d-flex justify-content-center"
-              style="margin-left: auto; margin-right: auto"
-            >
-              <div class="col-lg-3 col-sm-6 col-12">
-                <div class="card-header">
-                  <div class="img-bg">
-                    <img
-                      height="17px"
-                      width="17px"
-                      src="../../Assets/Images/book.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <p class="heading">Total Books</p>
-
-                  <p class="value">3200</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-sm-6 col-12">
-                <div class="card-header">
-                  <div class="img-bg">
-                    <img
-                      height="17px"
-                      width="17px"
-                      src="../../Assets/Images/user.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <p class="heading">Total Customers</p>
-
-                  <p class="value">1600</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 col-12">
-                <div class="card-header">
-                  <div class="img-bg">
-                    <img
-                      height="17px"
-                      width="17px"
-                      src="../../Assets/Images/book.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <p class="heading">Books Return pending</p>
-
-                  <p class="value">420</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 col-12">
-                <div class="card-header">
-                  <div class="img-bg">
-                    <img
-                      height="17px"
-                      width="17px"
-                      src="../../Assets/Images/money.png"
-                      alt=""
-                    />
-                  </div>
-                  <p class="heading">Fine pending</p>
-
-                  <p class="value">540</p>
-                </div>
-              </div>
-            </div>
+            
 
             <div>
               <div
@@ -155,14 +87,21 @@
                   class="nav-table d-flex justify-content-between align-items-center p-3 poppins-medium"
                 >
                   <div class="nav-items">
-                    <a href="./ReturnPending.html" class="p-2 nav-link">Rent</a>
-                    <a href="./FinePending.html" class="p-2 nav-link active">Fine</a>
+
+                    <a href="./FinePending.html" class="p-2 nav-link " >Rent Cart</a>
+                    <a href="./FinePending.html" class="p-2 nav-link " >Super Rent Cart</a>
+
+
+                    <a href="./ReturnPending.html" class="p-2 nav-link "
+                      >Rent</a
+                    >
+                    <a href="./FinePending.html" class="p-2 nav-link active" >Fine</a>
                   </div>
                   <div class="nav-items">
                     <div style="margin-top: 7px">
                       <div class="form-check form-switch">
                         <input
-                          class="form-check-input"
+                          class="form-check-input switch"
                           type="checkbox"
                           id="flexSwitchCheckDefault"
                         />
@@ -180,7 +119,7 @@
                 </div>
 
                 <div class="container-fluid">
-                  <table
+                    <table
                   id="table-detail"
                     class="table poppins-medium"
                     style="font-size: 14px"
@@ -188,7 +127,7 @@
                     <thead>
                       <tr>
                         <td scope="col">Rent ID</td>
-                        <td scope="col">User Name</td>
+                        
                         <td scope="col" class="text-center">Rent Date</td>
                         <td scope="col" class="text-center">Fined Books</td>
                         <td scope="col" class="text-center">Fine Pending</td>
@@ -201,7 +140,7 @@
                       <tr class="hover-bg"  data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">
                         <td>1</td>
 
-                        <td>Spiderman</td>
+                        
                         <td class="text-center">11-06-2024</td>
                         <td class="text-center">4</td>
                         
@@ -243,7 +182,7 @@
                       <tr class="hover-bg"  data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseOne">
                         <td>1</td>
 
-                        <td>Spiderman</td>
+                        
                         <td class="text-center">11-06-2024</td>
                         <td class="text-center">4</td>
                         
@@ -286,7 +225,7 @@
                       <tr class="hover-bg"  data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseOne">
                         <td>1</td>
 
-                        <td>Spiderman</td>
+                        
                         <td class="text-center">11-06-2024</td>
                         <td class="text-center">4</td>
                         
@@ -329,7 +268,7 @@
                       <tr class="hover-bg"  data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseOne">
                         <td>1</td>
 
-                        <td>Spiderman</td>
+                        
                         <td class="text-center">11-06-2024</td>
                         <td class="text-center">4</td>
                         
@@ -375,7 +314,7 @@
 
                     <tfoot>
                       <tr>
-                        <td colspan="4" style="margin-left: 5px">
+                        <td colspan="2" style="margin-left: 5px">
                           <div style="margin-left: 40px">1-10 of 97</div>
                         </td>
 
@@ -397,8 +336,6 @@
                       </tr>
                     </tfoot>
                   </table>
-
-                  
                 </div>
               </div>
             </div>
@@ -406,6 +343,17 @@
         </div>
       </div>
     </div>
+
+    <script>
+        function getQueryParameter(name) {
+          const urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(name);
+        }
+      
+        const userId = getQueryParameter('userId');
+        console.log(userId); // Use the userId as needed
+      </script>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

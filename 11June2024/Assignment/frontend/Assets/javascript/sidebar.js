@@ -9,7 +9,7 @@ hamburger.addEventListener("click",function(){
 
 //Selected Effect for dashboard item
 
-const sidebarLinks = document.querySelectorAll('.sidebar-link');
+// const sidebarLinks = document.querySelectorAll('.sidebar-link');
 
 // sidebarLinks.forEach(link => {
 //     link.addEventListener('click', function(e) {
