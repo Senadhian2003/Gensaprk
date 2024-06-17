@@ -251,7 +251,7 @@ a.sidebar-link:not(.active) :hover {
         color: $primarygreen;
     }
 
-    input.switch{
+    input.switch:checked{
       background-color: $basecolor;
     }
 
@@ -345,5 +345,18 @@ a.sidebar-link:not(.active) :hover {
         font-size: 12px;
         width: 70px;
     }
+}
+
+.return-btn{
+
+  background-color: $basecolor;
+  color: white;
+  font-size: 14px;
+
+}
+
+.return-btn:hover{
+  background-color: $basecolor;
+  color: white;
 }
 

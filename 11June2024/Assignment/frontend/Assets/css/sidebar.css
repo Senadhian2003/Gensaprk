@@ -220,7 +220,7 @@ a.sidebar-link:not(.active) :hover {
 .dashboard-main .nav-items a.active {
   color: #16C098;
 }
-.dashboard-main .nav-items input.switch {
+.dashboard-main .nav-items input.switch:checked {
   background-color: #5932EA;
 }
 .dashboard-main table thead td {
@@ -281,6 +281,17 @@ a.sidebar-link:not(.active) :hover {
   padding: 0.5%;
   font-size: 12px;
   width: 70px;
+}
+
+.return-btn {
+  background-color: #5932EA;
+  color: white;
+  font-size: 14px;
+}
+
+.return-btn:hover {
+  background-color: #5932EA;
+  color: white;
 }
 
 /*# sourceMappingURL=sidebar.css.map */
