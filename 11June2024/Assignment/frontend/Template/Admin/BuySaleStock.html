@@ -11,7 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-     <link rel="stylesheet" href="../../Assets/css/Admin/sidebar.css" />
+    <link rel="stylesheet" href="../../Assets/css/Admin/sidebar.css" />
   </head>
   <body>
     <div class="wrapper d-flex">
@@ -49,14 +49,14 @@
           </li>
 
           <li class="sidebar-item">
-            <a href="./Book.html" class="sidebar-link active"
+            <a href="./Book.html" class="sidebar-link "
               ><i class="lni lni-book"></i>
               <span>Books</span>
             </a>
           </li>
 
           <li class="sidebar-item">
-            <a href="./BuySaleStock.html" class="sidebar-link">
+            <a href="./BuySaleStock.html" class="sidebar-link active">
               <i class="lni lni-cloud-sync"></i> <span>Buy Stock</span></a
             >
           </li>
@@ -80,22 +80,7 @@
               class="row d-flex"
               style="margin-left: auto; margin-right: auto"
             >
-              <div class="col-lg-3 col-sm-6 col-12">
-                <div class="card-header">
-                  <div class="img-bg">
-                    <img
-                      height="17px"
-                      width="17px"
-                      src="../../Assets/Images/book.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <p class="heading">Books InStock</p>
-
-                  <p class="value">3200</p>
-                </div>
-              </div>
+              
 
               <div>
 
@@ -112,9 +97,9 @@
                     class="nav-table d-flex justify-content-between align-items-center p-3 poppins-medium"
                   >
                     <div class="nav-items">
-                      <a href="Book.html" class="p-2 nav-link active">Books</a>
-                      <a href="SaleStock.html" class="p-2 nav-link ">Sale Stock</a>
-                      <a href="RentStock.html" class="p-2 nav-link ">Rent Stock</a>
+                     
+                      <a href="BuySaleStock.html" class="p-2 nav-link active">Sales</a>
+                      <a href="BuyRentStock.html" class="p-2 nav-link ">Rent</a>
                     </div>
                     <div class="nav-items">
                       <input
@@ -124,24 +109,23 @@
                         aria-label="Username"
                         aria-describedby="basic-addon1"
                       />
-                      <button class="btn return-btn" style="margin-top: 3px">
-                        + Add Book
-                      </button>
+                     
                     </div>
                   </div>
 
                   <div class="container-fluid">
                     <table
-                      id="customer-detail"
+                      id="buy-sale-stock"
                       class="table poppins-medium"
                       style="font-size: 14px"
                     >
                       <thead>
                         <tr>
-                          <td scope="col">Book Id</td>
-                          <td scope="col">Title</td>
-                          <td scope="col" class="">Category</td>
-                          <td scope="col" class="">Author</td>
+                          <td scope="col">Sno</td>
+                          <td scope="col" class="text-center">Book name</td>
+                          <td scope="col" class="text-center">Price Per Book</td>
+                          <td scope="col" class="text-center">Quantity</td>
+                          <td scope="col" class="text-center">Total</td>
                         </tr>
                       </thead>
                       <tbody>
@@ -156,95 +140,33 @@
                         >
                           <td>1</td>
 
-                          <td>Spiderman</td>
-                          <td class="">Comic</td>
-                          <td class="">Stan Lee</td>
+                          <td class="text-center"><input id="1 title" list="Titles" name="Title" >
+                            <datalist id="Titles">
+                              
+                             
+                            </datalist></td>
+                          <td class="text-center"><input itemid="1 Price" type="number" value="0" id="QuantityInput1"></td>
+                          <td class="text-center" ><div class="stock-input">
+                            <button class="stock-btn minus" id="1 SubQuantity">-</button>
+                            <input id="1 Quantity" type="number" class="stock-input-field" value="0" min="0">
+                            <button class="stock-btn plus" id="1 AddQuantity">+</button>
+                          </div></td>
+                          <td id="1 Total" class="text-center">100</td>
                         </tr>
 
-                        <tr
-                          data-href="./UserRegularCartDetail.html"
-                          data-id="1"
-                          class="hover-bg"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse1"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                          <td>1</td>
-
-                          <td>Spiderman</td>
-                          <td class="">Comic</td>
-                          <td class="">Stan Lee</td>
-                        </tr>
-
-                        <tr
-                          data-href="./UserRegularCartDetail.html"
-                          data-id="1"
-                          class="hover-bg"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse1"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                          <td>1</td>
-
-                          <td>Spiderman</td>
-                          <td class="">Comic</td>
-                          <td class="">Stan Lee</td>
-                        </tr>
-
-                        <tr
-                          data-href="./UserRegularCartDetail.html"
-                          data-id="1"
-                          class="hover-bg"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse1"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                          <td>1</td>
-
-                          <td>Spiderman</td>
-                          <td class="">Comic</td>
-                          <td class="">Stan Lee</td>
-                        </tr>
-
-                        <tr
-                          data-href="./UserRegularCartDetail.html"
-                          data-id="1"
-                          class="hover-bg"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse1"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                          <td>1</td>
-
-                          <td>Spiderman</td>
-                          <td class="">Comic</td>
-                          <td class="">Stan Lee</td>
-                        </tr>
+                        
                       </tbody>
 
                       <tfoot>
                         <tr>
-                          <td colspan="1" style="margin-left: 5px">
-                            <div style="margin-left: 40px">1-10 of 97</div>
-                          </td>
+                          
 
-                          <td colspan="3" style="text-align: end">
+                          <td colspan="5" style="text-align: end">
                             <div
                               class="d-flex justify-content-end"
                               style="margin-right: 40px"
                             >
-                              <span> < </span>
-
-                              <span class="pagination"> 1 </span>
-                              <span class="pagination"> 2 </span>
-                              <span class="pagination"> 3 </span>
-                              <span class="pagination"> 4 </span>
-
-                              <span> > </span>
+                            <button class="btn return-btn" id="submit-btn" > Buy Stock </button>
                             </div>
                           </td>
                         </tr>
@@ -265,5 +187,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../../Assets/javascript/Admin/sidebar.js"></script>
+    <script src="../../Assets/javascript/tableDom.js" defer></script>
   </body>
 </html>

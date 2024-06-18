@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script>
+        const clickButton =()=>{
+            alert('Button Clicked'  )
+//             fetch('https://dummyjson.com/comments/add', {
+//   method: 'POST',
+//   headers: { 'Content-Type': 'application/json' },
+//   body: JSON.stringify({
+//     body: 'This makes all sense to me!',
+//     postId: 3,
+//     userId: 5,
+//   })
+// })
+// .then(res => res.json())
+// .then((data)=>{
+//     console.log(data);
+//     fetchComments();
+// });
+
+/* updating body of comment with id 1 */
+// fetch('https://dummyjson.com/comments/3', {
+//   method: 'PUT', /* or PATCH */
+//   headers: { 'Content-Type': 'application/json' },
+//   body: JSON.stringify({
+//     body: 'GG BOIS',
+//   })
+// })
+// .then(res => res.json())
+// .then((data)=>{
+//     console.log(data)
+//     fetchComments()
+// });
+
+fetch('http://localhost:5022/api/Authentication/UpgradeToPremium?userId=2', {
+            method: 'PUT',
+            headers: {
+                'Authorization': 'Bearer '+localStorage.getItem('UserToken') , 
+            }, 
+            })
+.then(res => res.json())
+.then((data)=>{
+    console.log(data)
+    
+});
+
+
+
+
+
+
+            
+        }
+
+
+        
+
+
+const fetchComments = ()=>{
+    fetch('https://dummyjson.com/comments/post/3')
+.then(res => res.json())
+.then(console.log);
+}
+
+
+    </script>
+</head>
+<body>
+    <h1>Upgrade to premium</h1>
+    
+    <button class="btn btn-success" onclick="clickButton()">Login</button>
+
+    <div id="divMessage">
+
+    </div>
+
+</body>
+</html>
