@@ -76,35 +76,6 @@
 fetch('https://dummyjson.com/quotes')
   .then((res) => res.json())
   .then((data) => {
-    let arrayOfQuotes = data.quotes;
-    const display = document.getElementById('display-quotes');
-    const pagination = document.createElement('nav');
-    pagination.className = 'mt-4';
-    pagination.innerHTML = `
-      <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-          <a class="page-link" href="#" tabindex="-1">Previous</a>
-        </li>
-      </ul>
-    `;
-
-    const itemsPerPage = 5;
-    let totalPages = Math.ceil(arrayOfQuotes.length / itemsPerPage);
-
-
-    const searchInput = document.querySelector('#quote-search');
-    searchInput.addEventListener('input', handleSearch);
-
-    function handleSearch() {
-      const searchTerm = searchInput.value.toLowerCase().trim();
-      arrayOfQuotes = data.quotes.filter(quote =>
-        quote.quote.toLowerCase().includes(searchTerm) ||
-        quote.author.toLowerCase().includes(searchTerm)
-      );
-      totalPages = Math.ceil(arrayOfQuotes.length / itemsPerPage);
-      showPage(1);
-    }
-
 
     function showPage(page) {
       display.innerHTML = '';
@@ -148,6 +119,45 @@ fetch('https://dummyjson.com/quotes')
         }
       }
     }
+
+
+    function handleSearch() {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+      arrayOfQuotes = data.quotes.filter(quote =>
+        quote.quote.toLowerCase().includes(searchTerm) ||
+        quote.author.toLowerCase().includes(searchTerm)
+      );
+      totalPages = Math.ceil(arrayOfQuotes.length / itemsPerPage);
+      showPage(1);
+    }
+
+
+
+
+
+
+    let arrayOfQuotes = data.quotes;
+    const display = document.getElementById('display-quotes');
+    const pagination = document.createElement('nav');
+    pagination.className = 'mt-4';
+    pagination.innerHTML = `
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+      </ul>
+    `;
+
+    const itemsPerPage = 5;
+    let totalPages = Math.ceil(arrayOfQuotes.length / itemsPerPage);
+
+
+    const searchInput = document.querySelector('#quote-search');
+    searchInput.addEventListener('input', handleSearch);
+
+   
+
+   
 
     showPage(1);
     display.parentNode.insertBefore(pagination, display.nextSibling);

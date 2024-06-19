@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-ExtraBold {
+  font-weight: 800;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-Regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-Bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.plus-jakarta-sans-Medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.landing-page {
+  background-image: url("../../Images/HomeBackground.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh; /* Set the height to the full viewport height */
+}
+
+/* CSS */
+.navbar {
+  background-color: transparent;
+  padding: 1rem 0;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-left: 1rem;
+}
+
+.active {
+  color: #4475F2;
+}
+
+.primary-color {
+  color: #4475F2;
+}
+
+button.blue {
+  background-color: #4475F2;
+  color: white;
+  width: 150px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
