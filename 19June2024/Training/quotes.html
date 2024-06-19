@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="icon"
+            href="./Assets/Images/quote3.jpg"
+            type="image/x-icon"
+        />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="styles.css">
+
+    <title>Quotes</title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"  style="padding-left: 2%;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quotes.html">Quotes <span class="sr-only">(current)</span></a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="main">
+
+
+        
+
+            <div class="container my-5">
+
+                <div class="d-flex justify-content-between" style="margin-left: auto;margin-right: auto;">
+                    <h1 class="text-center mb-4">Quote Showcase</h1>
+                    <input type="text" style="height: 30px;" id="quote-search"  class="" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+
+                </div>
+
+                
+
+
+                <div class="row" id="display-quotes" >
+
+                  
+
+                </div>
+              </div>
+            
+
+
+
+     
+
+
+
+      </div>
+
+
+
+
+      <script>
+
+fetch('https://dummyjson.com/quotes')
+  .then((res) => res.json())
+  .then((data) => {
+    let arrayOfQuotes = data.quotes;
+    const display = document.getElementById('display-quotes');
+    const pagination = document.createElement('nav');
+    pagination.className = 'mt-4';
+    pagination.innerHTML = `
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+      </ul>
+    `;
+
+    const itemsPerPage = 5;
+    let totalPages = Math.ceil(arrayOfQuotes.length / itemsPerPage);
+
+
+    const searchInput = document.querySelector('#quote-search');
+    searchInput.addEventListener('input', handleSearch);
+
+    function handleSearch() {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+      arrayOfQuotes = data.quotes.filter(quote =>
+        quote.quote.toLowerCase().includes(searchTerm) ||
+        quote.author.toLowerCase().includes(searchTerm)
+      );
+      totalPages = Math.ceil(arrayOfQuotes.length / itemsPerPage);
+      showPage(1);
+    }
+
+
+    function showPage(page) {
+      display.innerHTML = '';
+      const startIndex = (page - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const paginatedQuotes = arrayOfQuotes.slice(startIndex, endIndex);
+
+      paginatedQuotes.forEach(quote => {
+        const quoteElement = document.createElement('div');
+        quoteElement.className = 'col-md-6 offset-md-3';
+        quoteElement.innerHTML = `
+          <div id="quoteDisplay" class="card" style="padding: 1%; margin:1%">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p id="quote">${quote.quote}</p>
+                <footer class="blockquote-footer" id="author">${quote.author}</footer>
+              </blockquote>
+            </div>
+          </div>
+        `;
+
+        display.appendChild(quoteElement);
+      });
+
+      const paginationLinks = pagination.querySelector('.pagination');
+      paginationLinks.innerHTML = '';
+
+      if (totalPages > 1) {
+        for (let i = 1; i <= totalPages; i++) {
+          const li = document.createElement('li');
+          li.className = `page-item ${i === page ? 'active' : ''}`;
+          const a = document.createElement('a');
+          a.className = 'page-link';
+          a.href = '#';
+          a.textContent = i;
+          a.addEventListener('click', () => {
+            showPage(i);
+          });
+          li.appendChild(a);
+          paginationLinks.appendChild(li);
+        }
+      }
+    }
+
+    showPage(1);
+    display.parentNode.insertBefore(pagination, display.nextSibling);
+  })
+  .catch((err) => {
+    console.log("Error: " + err);
+  });
+
+      </script>
+
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+</body>
+</html>
