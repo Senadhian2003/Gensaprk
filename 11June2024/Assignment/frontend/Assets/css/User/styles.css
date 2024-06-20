@@ -31,6 +31,10 @@ body {
   font-style: normal;
 }
 
+.padding {
+  padding-left: 2%;
+}
+
 .landing-page {
   background-image: url("../../Images/HomeBackground.png");
   background-position: top right;
@@ -74,6 +78,71 @@ button.blue {
   color: white;
   width: 150px;
   font-size: 16px;
+}
+
+.blue-heading {
+  font-size: 18px;
+  color: #4475F2;
+  letter-spacing: 3.52px;
+}
+
+.black-heading {
+  font-size: 48px;
+  color: black;
+}
+
+div.features .card-item {
+  height: 270px;
+  width: 281px;
+}
+div.features .card-item .img-bg {
+  background-color: #4475F2;
+  height: 90px;
+  width: 90px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 50px grey;
+}
+div.features .card-item p.heading {
+  font-size: 24px;
+}
+div.features .card-item p.content {
+  font-size: 16px;
+  color: #5E6282;
+}
+
+.rent-service img {
+  max-height: 400px;
+  max-width: 600px;
+}
+.rent-service p.heading {
+  font-size: 32px;
+}
+.rent-service p.heading span {
+  color: #4475F2;
+}
+.rent-service p.content {
+  font-size: 16px;
+}
+
+.location iframe {
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px grey;
+  margin-top: 40px;
+}
+
+.footer .end-bar {
+  margin-top: 30px;
+  height: 50px;
+  background-color: #4475F2;
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
