@@ -204,7 +204,7 @@ a.sidebar-link:not(.active) :hover {
   background-position: 10px center;
   outline: none;
   background-repeat: no-repeat;
-  background-image: url("../Images/Search.png");
+  background-image: url("../../Images/Search.png");
   padding-left: 40px;
   height: 38px;
   width: 15.02vw !important;
