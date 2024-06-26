@@ -11,7 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../../Assets/css/Admin/sidebar.css" />
+    <link rel="stylesheet" href="../../Assets/Admin/Css/Admin.css" />
   </head>
   <body>
     <div class="wrapper d-flex">
@@ -22,7 +22,7 @@
             <img
               height="55px"
               width="55px"
-              src="../../Assets/Images/Athena.avif"
+               src="../../Assets/Admin/Images/Athena.avif"
               alt=""
             />
           </button>
@@ -86,7 +86,7 @@
                     <img
                       height="17px"
                       width="17px"
-                      src="../../Assets/Images/book.png"
+                      src="../../Assets/Admin/Images/book.png"
                       alt=""
                     />
                   </div>
@@ -103,7 +103,7 @@
                     <img
                       height="17px"
                       width="17px"
-                      src="../../Assets/Images/user.png"
+                      src="../../Assets/Admin/Images/user.png"
                       alt=""
                     />
                   </div>
@@ -162,81 +162,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr
-                      data-href="./UserRegularCartDetail.html" data-id="1"
-                        class="hover-bg"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse1"
-                        aria-expanded="false"
-                        aria-controls="collapseOne"
-                      >
-                        <td>1</td>
-
-                        <td>Spiderman</td>
-                        <td class="">8930499503</td>
-                        <td class="">Normal User</td>
-
-                        <td class=""> <p class="success">Active</p></td>
-
-                        
-                      </tr>
-                      
-                      <tr 
-                      data-href="./UserRegularCartDetail.html" data-id="2"
-                        class="hover-bg"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse2"
-                        aria-expanded="false"
-                        aria-controls="collapseOne"
-                      >
-                        <td  >1</td>
-
-                        <td>Spiderman</td>
-                        <td class="">8273948392</td>
-                        <td class="">Premium</td>
-
-                        <td class=""> <p class="danger">Disabled</p></td>
-
-                        
-                      </tr>
-                      
-                      <tr
-                      data-href="./UserRegularCartDetail.html" data-id="3"
-                      class="hover-bg"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse1"
-                      aria-expanded="false"
-                      aria-controls="collapseOne"
-                    >
-                      <td>1</td>
-
-                      <td>Spiderman</td>
-                      <td class="">8930499503</td>
-                      <td class="">Normal User</td>
-
-                      <td class=""> <p class="success">Active</p></td>
-
-                      
-                    </tr>
-                    
-                    <tr
-                    data-href="./UserRegularCartDetail.html" data-id="4"
-                      class="hover-bg"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse2"
-                      aria-expanded="false"
-                      aria-controls="collapseOne"
-                    >
-                      <td>1</td>
-
-                      <td>Spiderman</td>
-                      <td class="">8273948392</td>
-                      <td class="">Premium </td>
-
-                      <td class=""> <p class="danger">Disabled</p></td>
-
-                      
-                    </tr>
+                
                     </tbody>
 
                     <tfoot>
@@ -271,14 +197,7 @@
       </div>
     </div>
 
-    <script>
-        document.querySelectorAll('#customer-detail tbody tr').forEach(row => {
-          row.addEventListener('click', function() {
-            const userId = this.getAttribute('data-id');
-            window.location.href = `${this.getAttribute('data-href')}?userId=${userId}`;
-          });
-        });
-      </script>
+   
 
 
     <script
@@ -286,6 +205,15 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="../../Assets/javascript/Admin/sidebar.js"></script>
+    <script src="../../Assets/Admin/Javascript/sidebar.js"></script>
+    <script src="../../Assets/Admin/Javascript/Customer.js" defer ></script>
+    <!-- <script>
+      document.querySelectorAll('#customer-detail tbody tr').forEach(row => {
+        row.addEventListener('click', function() {
+          const userId = this.getAttribute('data-id');
+          window.location.href = `${this.getAttribute('data-href')}?userId=${userId}`;
+        });
+      });
+    </script> -->
   </body>
 </html>
