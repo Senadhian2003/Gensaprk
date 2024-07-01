@@ -1,5 +1,5 @@
 #Sort sore and name of players print the top 10
-# Sample data: list of dictionaries
+
 players = [
     {'name': 'Alice', 'score': 500},
     {'name': 'Bob', 'score': 1200},
