@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KeyVaultApp",
+              "Title": "KeyVaultApp.csproj",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\AzureKeyVault\\KeyVaultSolution\\KeyVaultApp\\KeyVaultApp.csproj",
               "RelativeDocumentMoniker": "KeyVaultApp\\KeyVaultApp.csproj",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\AzureKeyVault\\KeyVaultSolution\\KeyVaultApp\\KeyVaultApp.csproj",
               "RelativeToolTip": "KeyVaultApp\\KeyVaultApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-18T11:12:44.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T11:12:44.532Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "KeyVaultApp\\Program.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\AzureKeyVault\\KeyVaultSolution\\KeyVaultApp\\Program.cs",
               "RelativeToolTip": "KeyVaultApp\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T06:38:08.328Z",
               "EditorCaption": ""
