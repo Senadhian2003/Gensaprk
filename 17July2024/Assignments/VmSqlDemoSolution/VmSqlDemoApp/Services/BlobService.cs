@@ -10,7 +10,7 @@ namespace VmSqlDemoApp.Services
 
         public BlobService()
         {
-       
+            connectionString = "DefaultEndpointsProtocol=https;AccountName=senablobstorage;AccountKey=VOy0IosW//xfexUeEk1wtGE1J0D4J3QLnJFru1CEq/Kj64/IFCgh2R+rn/3S/UmJo0Zj8OCije5M+AStn1Tksg==;EndpointSuffix=core.windows.net"
             _blobServiceClient = new BlobServiceClient(connectionString);
             _containerName = "imagecontainer";
         }
