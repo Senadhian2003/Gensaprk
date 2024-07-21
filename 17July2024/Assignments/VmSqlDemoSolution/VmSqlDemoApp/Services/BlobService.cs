@@ -10,7 +10,7 @@ namespace VmSqlDemoApp.Services
 
         public BlobService()
         {
-            string connectionString = "builder.Configuration.GetConnectionString(\"defaultConnection\")";
+            string connectionString = "";
             _blobServiceClient = new BlobServiceClient(connectionString);
             _containerName = "imagecontainer";
         }
