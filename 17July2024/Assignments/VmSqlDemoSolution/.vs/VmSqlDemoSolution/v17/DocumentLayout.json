@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CE2292C-78DC-49E1-8378-2CCD2BE1D7F7}|VmSqlDemoApp\\VmSqlDemoApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\17july2024\\assignments\\vmsqldemosolution\\vmsqldemoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CE2292C-78DC-49E1-8378-2CCD2BE1D7F7}|VmSqlDemoApp\\VmSqlDemoApp.csproj|solutionrelative:vmsqldemoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CE2292C-78DC-49E1-8378-2CCD2BE1D7F7}|VmSqlDemoApp\\VmSqlDemoApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\17july2024\\assignments\\vmsqldemosolution\\vmsqldemoapp\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE2292C-78DC-49E1-8378-2CCD2BE1D7F7}|VmSqlDemoApp\\VmSqlDemoApp.csproj|solutionrelative:vmsqldemoapp\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IProductService.cs.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Services\\Interfaces\\IProductService.cs.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Services\\Interfaces\\IProductService.cs.cs",
@@ -59,12 +63,11 @@
               "ViewState": "AQIAAAEAAAAAAAAAAAAwwAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T09:35:17.037Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Controllers\\ProductController.cs",
@@ -73,12 +76,11 @@
               "ViewState": "AQIAADAAAAAAAAAAAAD4vzUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T19:37:53.964Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Services\\ProductService.cs",
@@ -87,12 +89,24 @@
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T19:35:10.766Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "VmSqlDemoApp\\appsettings.json",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\appsettings.json",
+              "RelativeToolTip": "VmSqlDemoApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-21T17:50:17.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddNewProductDTO.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Models\\DTO\\AddNewProductDTO.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Models\\DTO\\AddNewProductDTO.cs",
@@ -100,12 +114,11 @@
               "RelativeToolTip": "VmSqlDemoApp\\Models\\DTO\\AddNewProductDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T20:11:04.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T20:11:04.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductContext.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Context\\ProductContext.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Context\\ProductContext.cs",
@@ -113,12 +126,11 @@
               "RelativeToolTip": "VmSqlDemoApp\\Context\\ProductContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T19:56:35.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T19:56:35.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Models\\Product.cs",
@@ -130,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IBlobService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Services\\Interfaces\\IBlobService.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Services\\Interfaces\\IBlobService.cs",
@@ -138,25 +150,24 @@
               "RelativeToolTip": "VmSqlDemoApp\\Services\\Interfaces\\IBlobService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T19:34:13.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T19:34:13.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BlobService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Services\\BlobService.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Services\\BlobService.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Services\\BlobService.cs",
               "RelativeToolTip": "VmSqlDemoApp\\Services\\BlobService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAwAAABnAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T17:32:38.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\Assignments\\VmSqlDemoSolution\\VmSqlDemoApp\\Program.cs",
               "RelativeDocumentMoniker": "VmSqlDemoApp\\Program.cs",
