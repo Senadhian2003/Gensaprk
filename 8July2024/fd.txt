@@ -1,0 +1,9 @@
+ID(prim key)
+fd_Type_id
+account_id
+Deposit_Amt
+Deposit_date
+interest_rate_id
+maturityDate
+
+

@@ -1,0 +1,137 @@
+Group 1
+Rainbow
+Ocean
+Beach
+mouse
+The Flash
+
+Group 2
+Mountain
+Desert
+Thunderstorm
+orange
+Green Lantern
+
+Group 3
+Island
+Forest
+Treehouse
+horse
+Black Widow
+
+Group 4
+River
+Volcano
+Waterfall
+Eclipse
+Aquaman
+
+Group 5
+Glacier
+Cannon
+Valley
+Hologram
+Wonder Woman
+
+Group 6
+Earthquake
+Hurricane
+Cyclone
+Symbiote
+Thor
+
+Group 7
+Tornado
+Lightning
+Thunder
+Dilemma
+Captain America
+
+Group 8
+Blizzard
+Fog
+Avalanche
+obesity
+Hulk
+
+Group 9
+IMAX 
+pedal
+Sunflower
+mosquitoe
+Black Panther
+
+Group 10
+Frost
+Mist
+Matchbox
+Shadow
+Spiderman
+
+
+Group 11
+Whisper
+Echo
+Ninja
+Mario
+Superman
+
+	
+
+Group 13
+Harmony
+Rhythm
+Bullet Bike
+Necklace
+Iron Man
+
+Group 14
+Tune
+Symphony
+Allegory
+Fable
+The Flash
+
+Group 15
+Theif
+Edge browser
+Adventure
+Mystery
+Green Lantern
+
+Group 16
+Chrome
+Drama
+Detective
+Thriller
+Black Widow
+
+Group 17
+Comedy
+Tragedy
+Fantasy
+Romance
+Aquaman
+
+Group 18
+Kratos (God of war)
+Titanic
+Novel
+Short Story
+Wonder Woman
+
+Group 19
+Allegory
+Mickey mouse
+Science Fiction
+Poetry
+Thor
+
+Group 20
+Myth
+Puss in Boots
+Adventure
+Mystery
+Captain America
+
+

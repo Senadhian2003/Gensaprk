@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zytGYEgBB8Feu2NpVp983oAaVdD6Ngryf8KI927Erjg=",
+  "Source": "SampleDockerApp",
+  "BasePath": "_content/SampleDockerApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

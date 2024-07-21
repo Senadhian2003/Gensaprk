@@ -1,0 +1,42 @@
+docker pull postgres
+
+
+docker run --name postgresdb -e POSTGRES_PASSWORD=Sena@2003 -d postgres
+
+
+
+docker exec -it postgresdb psql -U postgres
+
+CREATE DATABASE dbdocker
+
+
+CREATE TABLE DEPARTMENT(id SERIAL PRIMARY KEY, deptname VARCHAR(50) NOT NULL);
+
+
+CREATE TABLE DEPARTMENT(id SERIAL PRIMARY KEY, dName VARCHAR(60) NOT NULL);
+
+CREATE TABLE SALARY(id SERIAL PRIMARY KEY, e_s_id INTEGER REFERENCES EMPLOYEE(id), salary DECIMAL(10,2) NOT NULL);
+
+CREATE TABLE EMPLOYEE(id SERIAL PRIMARY KEY, eName VARCHAR(50) NOT NULL, eAge INTEGE
+R, ePhone VARCHAR(20), d_e_id INTEGER REFERENCES DEPARTMENT(id));
+
+
+docker stop postgresdb
+
+docker start postgresdb
+
+docker exec -it postgresdb psql -U postgres
+
+
+INSERT INTO DEPARTMENT(dName) VALUES ('IT'),('ECE'),('CS');
+
+INSERT INTO EMPLOYEE(eName, eAge, ePhone, d_e_id) VALUES ('Spiderman', 18, 8989088765, 2), ('Batman', 25, '9303948920', 1);
+
+INTO SALARY (e_s_id, salary) VALUES (1, 30000), (2,100000);
+
+SELECT e.eName, e.eAge, e.ePhone, d.dName, s.Salary FROM EMPLOYEE e JOIN DEPARTMENT d on e.d_e_id = d.id JOIN SALARY s on e.id = s.e_s_id;
+
+   ename   | eage |   ephone   | dname |  salary
+-----------+------+------------+-------+-----------
+ Spiderman |   18 | 8989088765 | ECE   |  30000.00
+ Batman    |   25 | 9303948920 | IT    | 100000.00

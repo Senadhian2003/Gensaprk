@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xvnRCJe3fwQITveu4fJZBeQhod68zyrn4VtVSc6Y81g=",
+  "Source": "VmSqlDemoApp",
+  "BasePath": "_content/VmSqlDemoApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
