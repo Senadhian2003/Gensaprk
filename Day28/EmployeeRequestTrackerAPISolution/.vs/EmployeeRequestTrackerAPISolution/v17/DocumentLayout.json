@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\contexts\\requesttrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\contexts\\requesttrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,10 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\interfaces\\irequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\interfaces\\irequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\day28\\employeerequesttrackerapisolution\\employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88266FB7-76A2-4199-AC7C-9D14C96F2E6E}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,11 +93,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "RequestRepository.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Repositories\\RequestRepository.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Repositories\\RequestRepository.cs",
@@ -110,19 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RequestTrackerContext.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
               "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAASAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T00:41:56.126Z"
+              "WhenOpened": "2024-05-27T00:41:56.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Employee.cs",
@@ -130,23 +131,12 @@
               "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:35:23.653Z"
+              "WhenOpened": "2024-05-26T17:35:23.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserLoginDTO.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
-              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:11:39.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
@@ -159,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Program.cs",
@@ -171,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EmployeeRequestTrackerAPI.csproj",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj",
@@ -183,7 +173,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:55:03.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:11:39.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\UserService.cs",
@@ -195,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RequestController.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
@@ -207,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\User.cs",
@@ -219,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Log4net.Config",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\bin\\Debug\\net6.0\\Log4net.Config",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\bin\\Debug\\net6.0\\Log4net.Config",
@@ -231,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\TokenService.cs",
@@ -243,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Log4net.Config",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Log4net.Config",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Log4net.Config",
@@ -255,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Log4net.Config",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\PizzaAppSolution\\PizzaApp\\Log4net.Config",
               "RelativeDocumentMoniker": "..\\PizzaAppSolution\\PizzaApp\\Log4net.Config",
@@ -267,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
@@ -279,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "RequestService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Services\\RequestService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\RequestService.cs",
@@ -291,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
@@ -303,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AdminBasicServices.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Services\\AdminBasicServices.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\AdminBasicServices.cs",
@@ -315,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "EmptyListException.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Exceptions\\EmptyListException.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Exceptions\\EmptyListException.cs",
@@ -328,18 +343,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "ToolTip": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T17:55:03.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "IRequestService.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\Day28\\EmployeeRequestTrackerAPISolution\\EmployeeRequestTrackerAPI\\Interfaces\\IRequestService.cs",
               "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\IRequestService.cs",

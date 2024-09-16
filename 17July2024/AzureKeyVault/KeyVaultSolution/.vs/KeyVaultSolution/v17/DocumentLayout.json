@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\AzureKeyVault\\KeyVaultSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF99631D-3D11-4DAB-AADE-4B588037A263}|KeyVaultApp\\KeyVaultApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\17july2024\\azurekeyvault\\keyvaultsolution\\keyvaultapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF99631D-3D11-4DAB-AADE-4B588037A263}|KeyVaultApp\\KeyVaultApp.csproj|solutionrelative:keyvaultapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF99631D-3D11-4DAB-AADE-4B588037A263}|KeyVaultApp\\KeyVaultApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\17july2024\\azurekeyvault\\keyvaultsolution\\keyvaultapp\\keyvaultapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EF99631D-3D11-4DAB-AADE-4B588037A263}|KeyVaultApp\\KeyVaultApp.csproj|solutionrelative:keyvaultapp\\keyvaultapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF99631D-3D11-4DAB-AADE-4B588037A263}|KeyVaultApp\\KeyVaultApp.csproj|c:\\mypersonalfiles\\gensparktraining\\github\\17july2024\\azurekeyvault\\keyvaultsolution\\keyvaultapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF99631D-3D11-4DAB-AADE-4B588037A263}|KeyVaultApp\\KeyVaultApp.csproj|solutionrelative:keyvaultapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "KeyVaultApp.csproj",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\AzureKeyVault\\KeyVaultSolution\\KeyVaultApp\\KeyVaultApp.csproj",
               "RelativeDocumentMoniker": "KeyVaultApp\\KeyVaultApp.csproj",
@@ -30,11 +30,12 @@
               "RelativeToolTip": "KeyVaultApp\\KeyVaultApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-18T11:12:44.532Z"
+              "WhenOpened": "2024-07-18T11:12:44.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MyPersonalFiles\\GensparkTraining\\GitHub\\17July2024\\AzureKeyVault\\KeyVaultSolution\\KeyVaultApp\\Program.cs",
               "RelativeDocumentMoniker": "KeyVaultApp\\Program.cs",
